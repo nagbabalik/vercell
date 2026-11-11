@@ -1,1 +1,231 @@
-<h2>test</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAMJ CONNECT VPN</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #080d18;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #00e5a0;
+}
+
+.logo span {
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #00e5a0;
+}
+
+.hero p {
+    color: #9ba8bb;
+    font-size: 15px;
+}
+
+.vpn-card {
+    background: #111b2d;
+    border: 1px solid #24334b;
+    border-radius: 22px;
+    width: 90%;
+    max-width: 400px;
+    margin: 35px auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 40px #0005;
+}
+
+.status {
+    color: #ff6868;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.status.connected {
+    color: #00e5a0;
+}
+
+.power {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 3px solid #00e5a0;
+    background: #102c2b;
+    color: #00e5a0;
+    font-size: 48px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: .3s;
+}
+
+.power:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 30px #00e5a055;
+}
+
+.power.connected {
+    background: #00e5a0;
+    color: #07131a;
+}
+
+select {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    background: #1b2940;
+    color: white;
+    border: 1px solid #34445d;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.server-label {
+    text-align: left;
+    color: #9ba8bb;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border-top: 1px solid #29374b;
+    padding-top: 20px;
+}
+
+.info div {
+    font-size: 13px;
+    color: #9ba8bb;
+}
+
+.info strong {
+    display: block;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #718096;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TAMJ <span>CONNECT VPN</span></div>
+</header>
+
+<section class="hero">
+    <h1>Secure Your <span>Connection</span></h1>
+    <p>Fast, simple and secure internet access.</p>
+
+    <div class="vpn-card">
+
+        <h2>TAMJ VPN</h2>
+
+        <div class="status" id="status">
+            ● DISCONNECTED
+        </div>
+
+        <button class="power" id="power" onclick="toggleVPN()">
+            ⏻
+        </button>
+
+        <p id="message">Tap to connect</p>
+
+        <div class="server-label">SELECT SERVER</div>
+
+        <select id="server">
+            <option>🇺🇸 United States</option>
+            <option>🇬🇧 United Kingdom</option>
+            <option>🇩🇪 Germany</option>
+            <option>🇫🇷 France</option>
+            <option>🇨🇦 Canada</option>
+            <option>🇳🇱 Netherlands</option>
+        </select>
+
+        <div class="info">
+            <div>
+                <strong id="download">0 KB/s</strong>
+                Download
+            </div>
+            <div>
+                <strong id="upload">0 KB/s</strong>
+                Upload
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 TAMJ CONNECT VPN. All Rights Reserved.
+</footer>
+
+<script>
+let connected = false;
+
+function toggleVPN() {
+    connected = !connected;
+
+    const power = document.getElementById("power");
+    const status = document.getElementById("status");
+    const message = document.getElementById("message");
+
+    if (connected) {
+        power.classList.add("connected");
+        status.classList.add("connected");
+        status.innerHTML = "● CONNECTED";
+        message.innerHTML = "VPN interface activated";
+    } else {
+        power.classList.remove("connected");
+        status.classList.remove("connected");
+        status.innerHTML = "● DISCONNECTED";
+        message.innerHTML = "Tap to connect";
+        document.getElementById("download").innerHTML = "0 KB/s";
+        document.getElementById("upload").innerHTML = "0 KB/s";
+    }
+}
+</script>
+
+</body>
+</html>
