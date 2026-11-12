@@ -1,0 +1,1291 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="One PH" tvg-name="One PH" tvg-logo="https://i.imgur.com/gkluDe9.png" group-title="cignal local news" tvg-type="mpd",One PH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5e9a3c718d464f20b9157a6c2e4d8031:7bf8a7666a2d572fe111b5f829c99266
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/oneph_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="BuKO" tvg-name="BuKO" tvg-logo="https://i.imgur.com/Wv0K5Yc.png" group-title="cignal local entertainment comedy" tvg-type="mpd",BuKO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c8b1d5f42a674e93b8016f2d9c7a5e34:168bbf02d7eca252a61a402e25cb33f5
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_buko_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="SARI-SARI" tvg-name="SARI-SARI" tvg-logo="https://static.wikia.nocookie.net/russel/images/e/ec/Sari-Sari_Channel_2D_Logo_2016.png/revision/latest?cb=20190317023940" group-title="cignal local entertainment movie" tvg-type="mpd",SARI-SARI
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd
+
+#EXTINF:-1 tvg-id="PTV4" tvg-name="PTV4" tvg-logo="https://static.wikia.nocookie.net/russel/images/d/dc/PTV_4_Para_Sa_Bayan_Alternative_Logo_June_2017.png/revision/latest?cb=20171019065428" group-title="cignal local news" tvg-type="mpd",PTV4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f8c2a6915d744b309e186a3f7c2d8049:1ad3243b38c60312caa6ba11f150c19c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_ptv4_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="One News" tvg-name="One News" tvg-logo="https://i.imgur.com/bpRiu54.png" group-title="cignal local news" tvg-type="mpd",One News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d5c8a2914e734b609f127a3d6c5e8048:11368a3b001407d65a85b4edb410ecdd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/onenews_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="RPTV" tvg-name="RPTV" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/fb/RPTV_Alternative_Logo_2024.png/revision/latest?cb=20240305140432" group-title="cignal local news entertainment" tvg-type="mpd",RPTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5d7a6219c434e188f026a3d7c5e9148:28e1244057ff6feae879c1e985ded0fb
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cnn_rptv_prod_hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="TV5" tvg-name="TV5" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="cignal local news entertainment family" tvg-type="mpd",TV5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9c3e7a516d824f04a9175b8c2e3d7040:524a9c2cec98272f71c347345a3fd12e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/tv5_hd/default1/index.mpd
+
+#EXTINF:-1 tvg-id="A2Z" tvg-name="A2Z" tvg-logo="https://static.wikia.nocookie.net/russel/images/8/85/A2Z_Channel_11_without_Channel_11_3D_Logo_2020.png/revision/latest?cb=20231101144828" group-title="cignal local entertainment family" tvg-type="mpd",A2Z
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3a8c9126e544d809b312c7f5a8e6140:43f5361983896b47ff01b4f77c5dbf3f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_a2z/default/index.mpd
+
+#EXTINF:-1 tvg-id="Bilyonaryo Channel" tvg-name="Bilyonaryo Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxvjeBIthYiEaZHeVeYpDicIlOTdv3G6lzoal3VM2xVzWu_J7XxM657oz&s=10" group-title="cignal local news" tvg-type="mpd",Bilyonaryo Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2e7f9c518a424d30b2165c3e7a9d6041:8c8c0ef924c982bc1dd92348e024cd4c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/bilyonaryoch/default/index.mpd
+
+#EXTINF:-1 tvg-id="tvN Movies Pinoy" tvg-name="tvN Movies Pinoy" tvg-logo="https://static.wikia.nocookie.net/russel/images/e/e3/TvN_Movies_Pinoy_Logo_2023.png" group-title="cignal movie local" tvg-type="mpd",tvN Movies Pinoy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e6c9a4215d734f608b197c3e2a5d9048:ec695ab203cb2258db220b3863e2a7ee
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_tvnmovie/default/index.mpd
+
+#EXTINF:-1 tvg-id="PBO" tvg-name="PBO" tvg-logo="https://i.imgur.com/61fHpnW.png" group-title="cignal movie local" tvg-type="mpd",PBO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Viva Cinema" tvg-name="Viva Cinema" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/2/2f/Viva_Cinema_%282021-.n.v.%29.png/revision/latest?cb=20210804092616" group-title="cignal movie local" tvg-type="mpd",Viva Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="TMC" tvg-name="TMC" tvg-logo="https://i.imgur.com/6mNCite.png" group-title="cignal movie local" tvg-type="mpd",TMC
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=27f6c4818a534d09b2169e5c7a3f6048:fbd8e319511ff5a1593f5b68da7b81cd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_tagalogmovie/default/index.mpd
+
+#EXTINF:-1 tvg-id="Tap Movies" tvg-name="Tap Movies" tvg-logo="https://i.imgur.com/3RVA5mV.png" group-title="cignal movie local" tvg-type="mpd",Tap Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=65d8c4912f734a90b8163e7c5d9a2041:fd495b984013da4e26f83b1a921c0a15
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_tapmovies_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_170_122" group-title="cignal movie entertainment" tvg-type="mpd",HBO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d7f3c8215a944e068b176c9d2a5f3048:93c0a798243d6443864d1a7ff3e42c05
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbohd/default/index.mpd
+
+#EXTINF:-1 tvg-id="HBO Hits" tvg-name="HBO Hits" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/449_144.png" group-title="cignal movie entertainment" tvg-type="mpd",HBO Hits
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3e8c5a917d424f06b2196a5c9e2d8043:516c47ccef00a12421d9805c8c1c6c1d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbohits/default/index.mpd
+
+#EXTINF:-1 tvg-id="DreamWorks (Tagalized)" tvg-name="DreamWorks (Tagalized)" tvg-logo="https://i.imgur.com/cgfKSDP.png" group-title="cignal kids cartoon movie local" tvg-type="mpd",DreamWorks (Tagalized)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6f9c3a218d454b70a2187e5c3d6f9042:337ca7b74b462dd1ba7441553614538a
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_dreamworktag/default/index.mpd
+
+#EXTINF:-1 tvg-id="PBA RUSH" tvg-name="PBA RUSH" tvg-logo="https://i.imgur.com/F2npB7o.png" group-title="cignal sports local" tvg-type="mpd",PBA RUSH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91a5e6327c844f09b2186d3a5e7c2041:984beb3aeff3554c1a5acc04d6044e55
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_pbarush_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="One Sports+" tvg-name="One Sports+" tvg-logo="https://i.imgur.com/D33wRIq.png" group-title="cignal sports local" tvg-type="mpd",One Sports+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e9c4f7312a854d69b0137f6e8c2a5490:1105fa92173b06885be336b887bc4d26
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesportsplus_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Tap Sports" tvg-name="Tap Sports" tvg-logo="https://i.imgur.com/ZsWDiRF.png" group-title="cignal sports local" tvg-type="mpd",Tap Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a6d4f8912c734b608e159f3a7d5c2046:ec647e6c500235352a8df03c518e9b23
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_tapsports/default/index.mpd
+
+#EXTINF:-1 tvg-id="Knowledge Channel" tvg-name="Knowledge Channel" tvg-logo="https://i.imgur.com/UIqEr2y.png" group-title="cignal local documentary kids family" tvg-type="mpd",Knowledge Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=84d2f6917b354c08a9163e5d8f2a7049:192c69ef479dd7e3fccc908d6c5dbb3a
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/knowledge_channel/default/index.mpd
+
+#EXTINF:-1 tvg-id="Rock Action" tvg-name="Rock Action" tvg-logo="https://uploads-ssl.webflow.com/64e961c3862892bff815289d/64f57100366fe5c8cb6088a7_logo_ext_web.png" group-title="cignal movie entertainment" tvg-type="mpd",Rock Action
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9a4f5218c374b069e156f2d7a3c8049:72aa902f471adf15bef2710b6b689ed0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_rockextreme/default/index.mpd
+
+#EXTINF:-1 tvg-id="DepEd TV" tvg-name="DepEd TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/f3/DepEd_TV_Logo_2020.png" group-title="cignal local educational family" tvg-type="mpd",DepEd TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c1a5e8329d644f70b2187a3c6e5d2041:55979431f291f7dff35a43b73b3c2a36
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/depedch_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Fashion TV Cignal" tvg-name="Fashion TV Cignal" tvg-logo="https://i.imgur.com/Zd5zm7C.png" group-title="cignal lifestyle entertainment" tvg-type="mpd",Fashion TV Cignal
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c8a4e6917f324d05b9186c5e3a2f7049:92b4ece8c84379145045267b47f183d2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/fashiontvhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://i.imgur.com/t4HF5va.png" group-title="cignal movie entertainment" tvg-type="mpd",HBO Signature
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=74d8f5916c234b80a9179e5d3c7a2046:f8d2753ff54579efc01d3373acf21f96
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbosign/default/index.mpd
+
+#EXTINF:-1 tvg-id="KIX" tvg-name="KIX" tvg-logo="https://i.imgur.com/B8Fmzer.png" group-title="cignal action entertainment" tvg-type="mpd",KIX
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7f4a9c312e854d67b0198c6f5a3e7240:141f058ad1a6230e7c6f9d302ce378ef
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/kix_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Warner TV" tvg-name="Warner TV" tvg-logo="https://i.imgur.com/vGEL2Ne.png" group-title="cignal entertainment movie" tvg-type="mpd",Warner TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c4a8d5319e624f078b156d3c7a5e2049:cee9422b4a40d85589f36f1d76fb144f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_warnerhd/default1/index.mpd
+
+#EXTINF:-1 tvg-id="tvN Premium" tvg-name="tvN Premium" tvg-logo="https://i.imgur.com/eE9IBhJ.png" group-title="cignal entertainment movie" tvg-type="mpd",tvN Premium
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a7f9c615d824e40a9168c5b2d7f3049:2bc91eced1660ecf88299a42e4c0cd91
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_tvnpre/default/index.mpd
+
+#EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://cantseeus.com/wp-content/uploads/2023/10/History_28201529.png" group-title="cignal documentary" tvg-type="mpd",History
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f5c7a8219d464e30b2186a3f7c5d9041:dacc84b7010ca22f8c63a7c290461ed3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_historyhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://imgur.com/QMB9sFW.png" group-title="cignal documentary" tvg-type="mpd",BBC Earth
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4f9c6e217a354d80b9268e5c3f1a7042:41b33eebbacf91fe6c86bd28081bf3fd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_bbcearth_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="UAAP Varsity Channel" tvg-name="UAAP Varsity Channel" tvg-logo="https://i.imgur.com/V0sxXci.png" group-title="cignal sports local" tvg-type="mpd",UAAP Varsity Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b6c9f4218d734a059e165c3d7a2f8049:948aa5c0d0c15c70efb9257f5b75c379
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_uaap_cplay_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="True TV" tvg-name="True TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/TRUETV_Logo_2024.png" group-title="cignal local entertainment" tvg-type="mpd",True TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8c4e9a516d724f30b2187a3c5e9d6041:e25c167573772b510ff8e5282560a349
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/truefm_tv/default/index.mpd
+
+#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/450_144.png" group-title="cignal movie family entertainment" tvg-type="mpd",HBO Family
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c6e4b9218f534a709d165c3a7e2f8048:87c0e7cf73324aea32dada7b5f33063d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_hbofam/default/index.mpd
+
+#EXTINF:-1 tvg-id="Rock Entertainment" tvg-name="Rock Entertainment" tvg-logo="https://cdn.prod.website-files.com/64e961c3862892bff815289d/64f57100366fe5c8cb6088a7_logo_ent_red_web.png" group-title="cignal entertainment music" tvg-type="mpd",Rock Entertainment
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=86e5c7921a434f60b9287d3c9e5a6041:fab817af24eab2a73ae89145797cf556
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_rockentertainment/default/index.mpd
+
+#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV.png" group-title="cignal sports" tvg-type="mpd",SPOTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c5e8a3927d414b609f286a3c5e1d7049:7c5edbd3d090bb6de9a9c3685defa959
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_spotvhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="SPOTV2" tvg-name="SPOTV2" tvg-logo="https://linear-poster.astro.com.my/prod/logo/SPOTV2.png" group-title="cignal sports" tvg-type="mpd",SPOTV2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b2d8f6315c494e07a8129f6a3d5c2048:6b4247def21bbd0d08629a3cb4c62ee9
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_spotv2hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Premier Sports 2" tvg-name="Premier Sports 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/59/PremierSports2_logo.png" group-title="cignal sports" tvg-type="mpd",Premier Sports 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=72e4b9c13f864a52a9178d6c0e5b2394:9390c1edae5ecf680c168daf44bf6a03
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/premiersports2hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="NBA TV Philippines" tvg-name="NBA TV Philippines" tvg-logo="https://i.imgur.com/x1ZG71v.png" group-title="cignal sports local" tvg-type="mpd",NBA TV Philippines
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2f7c9a615d834e40b2188a6d3c7f9042:41d2ade5ff1798859420e925d5d2080d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cgnl_nba/default/index.mpd
+
+#EXTINF:-1 tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/337_144.png" group-title="cignal movie entertainment" tvg-type="mpd",Cinemax
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d7a9c5215e364b809f148c2d6a7e3045:c92a3b4a7fe9fab97c130468260b963f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_cinemax/default/index.mpd
+
+#EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://i.imgur.com/Qvj8mf4.png" group-title="cignal lifestyle entertainment" tvg-type="mpd",Lifetime
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b9e6a3214c754f908d165a3c7e2f6048:32300d9517f91a4acb747d360768dd00
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_lifetime/default/index.mpd
+
+#EXTINF:-1 tvg-id="Food Network" tvg-name="Food Network" tvg-logo="https://i.imgur.com/vucZeKB.png" group-title="cignal cooking lifestyle" tvg-type="mpd",Food Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b1f4a8926c374d509e218a7c3f5d6049:15cde0b44b44f38ea936513a99606c1b
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_foodnetwork_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AXN_v1.png" group-title="cignal entertainment movie" tvg-type="mpd",AXN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c7e5a2199d644b318f702a6c4e5d8139:300778996b5a71594db508982256f365
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_axn_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="ABC Australia" tvg-name="ABC Australia" tvg-logo="https://i.imgur.com/kVVax44.png" group-title="cignal news documentary" tvg-type="mpd",ABC Australia
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d6f1a8c29b7e4d5a8f332c1e9d7b6a90:790bd17b9e623e832003a993a2de1d87
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/abc_aus/default/index.mpd
+
+#EXTINF:-1 tvg-id="Travel Channel" tvg-name="Travel Channel" tvg-logo="https://i.imgur.com/ZCYeUV2.png" group-title="cignal lifestyle documentary" tvg-type="mpd",Travel Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=18c6f9235b744d81a0397e2c9f6a5048:7974c1376447c563f5fdb41be0104ddf
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/travel_channel_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://poster.starhubgo.com/Linear_channels2/708_1920x1080_HTV.png" group-title="cignal news" tvg-type="mpd",Bloomberg
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=19f6c8325a744d90b2618e3f7c2a5049:784fffb38dc4fb6d5b74de822074feb4
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/bloomberg_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://logos-world.net/wp-content/uploads/2024/12/BBC-News-Logo-500x281.png" group-title="cignal news" tvg-type="mpd",BBC News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f1a6e8329c574b048d216e5f3a7c9048:8106237b47f99be13f4e941ca5bd35c5
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/bbcworld_news_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png" group-title="cignal kids cartoon family" tvg-type="mpd",Cartoon Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=53c8e6914d724f30a9168b5e2c7d1043:1e17afbdfff786533796780f3f04aa67
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cartoonnetworkhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Cartoonito" tvg-name="Cartoonito" tvg-logo="https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png" group-title="converge kids cartoon" tvg-type="mpd",Cartoonito
+http://136.239.159.18:6610/001/2/ch00000090990000001125/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoZQDeIq8A03ROpfeWN75MYytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001238&contentid=ch00000000000000001238&videoid=ch00000090990000001125&recommendtype=0&userid=1642489849443&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=9X3U5ZPDLQVXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="DreamWorks" tvg-name="DreamWorks" tvg-logo="https://i.imgur.com/cgfKSDP.png" group-title="cignal kids cartoon movie family" tvg-type="mpd",DreamWorks
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1f7c9a425d864e30b2198a3c6f7d5041:b392ee3cd42686a8cff3070eef614745
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_dreamworks_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="HITS Now" tvg-name="HITS Now" tvg-logo="https://aqfadtv.xyz/logos/HITSNow.png" group-title="cignal entertainment movie" tvg-type="mpd",HITS Now
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=24a8e6917c534d809f165b3e6a2d9047:183f05bcb80e9cfcb613b8c767777f27
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_hitsnow/default/index.mpd
+
+#EXTINF:-1 tvg-id="Moonbug" tvg-name="Moonbug" tvg-logo="https://aqfadtv.xyz/logos/Moonbug.png" group-title="cignal kids cartoon family" tvg-type="mpd",Moonbug
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=48e7d3219c564f80b2147a5d3e6c2048:23a7b41054c60983ad020652f7ffa06e
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_moonbug_kids_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Celestial Movies Pinoy" tvg-name="Celestial Movies Pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="cignal movie local" tvg-type="mpd",Celestial Movies Pinoy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=35f8d6917a424b059e166c3a7d5f8049:76830e1bcb5819f76b7c515e9d65cc31
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/celmovie_pinoy_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="HITS Movies" tvg-name="HITS Movies" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/391_144.png" group-title="cignal movie entertainment" tvg-type="mpd",HITS Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=45c9e7328b614d059f247a6c3e5d1048:13ef5feae7c84eb06bcc655a225fb01d
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/hitsmovies/default/index.mpd
+
+#EXTINF:-1 tvg-id="THRILL" tvg-name="THRILL" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/Thrill_logo_2014.png" group-title="cignal movie entertainment" tvg-type="mpd",THRILL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b8c3d5906e424f17a9215d8c7a2e6043:02ce48f1b48f7cbdc3e2703a56e8fa31
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_thrill_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Lotus Macao" tvg-name="Lotus Macao" tvg-logo="https://cms.cignal.tv/Upload/Thumbnails/mo-macau-lotus-tv-3757.png" group-title="cignal entertainment lifestyle" tvg-type="mpd",Lotus Macao
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e2c9a5748b314f60a9276d5e3c1f8042:c845cc41e3826b6d880b802911eb43f9
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/lotusmacau_prd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="Discovery Channel" tvg-logo="https://cantseeus.com/wp-content/uploads/2023/10/discov.png" group-title="cignal documentary" tvg-type="mpd",Discovery Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d5a7f8219c364e50b2147f6d3a8c9025:c77d5e56c52c4065c42594422ac85e2c
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/discovery/default/index.mpd
+
+#EXTINF:-1 tvg-id="Asian Food Network" tvg-name="Asian Food Network" tvg-logo="https://i.imgur.com/O5jBcL2.png" group-title="cignal cooking lifestyle" tvg-type="mpd",Asian Food Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f4b7c8219e364a058d295c6f3e7a1042:d10c7f2a37c1079e6b83837423c0d6b2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/asianfoodnetwork_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://i.imgur.com/3zp7a0B.png" group-title="cignal news japan documentary" tvg-type="mpd",NHK World Japan
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a3d7f5916c824e09b2158a5c3f7d2046:32d760047f05c233d9dae35083fe0b30
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_nhk_japan/default/index.mpd
+
+#EXTINF:-1 tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://i.ibb.co/mBFs4RQ/pinpng-com-animal-planet-png-4851143.png" group-title="cignal documentary family" tvg-type="mpd",Animal Planet
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3c8e5a927d414b069f236a5c8e1d7049:a9b9198bf7b116b30492aea4dc471122
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_animal_planet_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="KBS World" tvg-name="KBS World" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrxyZu1bPiJ3SdGvhVf3d3Muj5AqQ7ZkGpw&s" group-title="cignal entertainment family" tvg-type="mpd",KBS World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e8c5d2317a944f06b2186d3a9e7c5042:ce327be0871677eb1c480d10a73eac34
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/kbsworld/default/index.mpd
+
+#EXTINF:-1 tvg-id="CNN International" tvg-name="CNN International" tvg-logo="http://115.146.176.131:80/images/2acf9495fde07739914e7a7bb3ffee94.png" group-title="cignal news" tvg-type="mpd",CNN International
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1d9f6b828c454a17b2395e7d3f90a621:c5776d83cbf50c9354f27b1c830e1996
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_cnnhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="France24" tvg-name="France24" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="cignal news" tvg-type="mpd",France24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92d8f3416c754b09a2187e5d3a9c6042:4e668d238bc656b7d2c7535757aa9531
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/france24/default/index.mpd
+
+#EXTINF:-1 tvg-id="IBC 13" tvg-name="IBC 13" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f5/IBC_13_Logo_2012.png" group-title="cignal local news" tvg-type="mpd",IBC 13
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f4a8d6216c954e709b187d3a5f2c8049:34710df996a4089ee6f7e8deb7f46586
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/ibc13_sd_new/default/index.mpd
+
+#EXTINF:-1 tvg-id="One Sports HD" tvg-name="One Sports HD" tvg-logo="https://static.wikia.nocookie.net/russel/images/5/5a/One_Sports_%28TV_channel%29_3D_Logo_2020.png" group-title="cignal sports local" tvg-type="mpd",One Sports HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69f5a2318d744c609b125e3a7d8f2046:182523c0bae912e17e916dd4283280e9
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_onesports_hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Premier Sports" tvg-name="Premier Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/63/Premier_Sports_logo_final.png" group-title="cignal sports" tvg-type="mpd",Premier Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91e4c6725a834d198f602c7b9e3a5148:4185d260443198690be03e294fdc1240
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_ps_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://i.imgur.com/MiUDLVa.png" group-title="cignal anime" tvg-type="mpd",Animax
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7d3f5916c844b209e158f3a7d5c2046:021fe5515e7dfb1a00a98d51abd0cb7f
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/cg_animax_sd_new/default/index.mpd
+
+#EXTINF:-1 tvg-id="Hits HD" tvg-name="Hits HD" tvg-logo="https://i.imgur.com/YeqyD9W.png" group-title="cignal entertainment movie" tvg-type="mpd",Hits HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d2e8c4715a634f09b2187c6d3e9a5042:8b11760042654021997fd07a8a0b7acc
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/hits_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/482_144.png" group-title="cignal documentary lifestyle" tvg-type="mpd",Global Trekker
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e4b8d2916a534f709c187d3e5a2f6049:85d67d8b52caf380c82dc45b07f26f69
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/globaltrekker/default/index.mpd
+
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://i.imgur.com/HBisPOA.png" group-title="cignal news documentary" tvg-type="mpd",CCTV4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=83e5c4917d624b00a2196f3c8a5e2047:d8fae6a24d5df3fa8e17a8f4a4854426
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_cctv4/default/index.mpd
+
+#EXTINF:-1 tvg-id="TV5 Monde" tvg-name="TV5 Monde" tvg-logo="https://klean.nl/wp-content/uploads/Logo_TV5_Monde_-_2021.svg_.png" group-title="cignal news entertainment" tvg-type="mpd",TV5 Monde
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e6b4c8217a954d309f165c8e2a3d7049:1acbc3a347d31fa2236f180574342e71
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_tv5_monde/default/index.mpd
+
+#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="http://apkip.tv/logos/UK/Nickelodeon.uk.png" group-title="cignal kids cartoon family" tvg-type="mpd",Nickelodeon
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=81f3e6924c754a08b9215d7e9c3f6048:094cd48e9729cb8bcb0e03e848fc8751
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_nickelodeon/default/index.mpd
+
+#EXTINF:-1 tvg-id="Nick Jr" tvg-name="Nick Jr" tvg-logo="https://i.imgur.com/4MozyqM.png" group-title="cignal kids cartoon family" tvg-type="mpd",Nick Jr
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ca7e5b318d624f099c246a3e7d5f8140:3175f0646c504fad87e97c7677a85393
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_nickjr/default/index.mpd
+
+#EXTINF:-1 tvg-id="HGTV" tvg-name="HGTV" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/198_144.png" group-title="cignal lifestyle home" tvg-type="mpd",HGTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4e9a6c317d524f808b163c5a2e7d9048:5079e2288b584f47d4bbf8d149b2a986
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/hgtv_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Crime & Investigation" tvg-name="Crime & Investigation" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/369_144.png" group-title="cignal documentary mystery" tvg-type="mpd",Crime & Investigation
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e7a3d5916c824b459f105d8e2c7a3046:616f8ab0c416966e8de415cb60e9e6cf
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/crime_invest/default/index.mpd
+
+#EXTINF:-1 tvg-id="TV Maria" tvg-name="TV Maria" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cd/TV_MARIA_PH.png" group-title="cignal local religion family" tvg-type="mpd",TV Maria
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6a2d9f815c744e30b9168f3a7d2c5049:fb07ec8ca16ffdb8b8a045fa4c8aac74
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/tvmaria_prd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Wil TV" tvg-name="Wil TV" tvg-logo="https://static.wikia.nocookie.net/tv-philippines/images/4/43/WILTV_logo.png" group-title="cignal local entertainment" tvg-type="mpd",Wil TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b1773d6f982242cdb0f694546a3db26f:ae9a90dbea78f564eb98fe817909ec9a
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/wiltv/default/index.mpd
+
+#EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="http://115.146.176.131/images/14a646307c92e88856903295e6fa0d5c.png" group-title="cignal news documentary" tvg-type="mpd",Arirang
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7d4f9c216a834e508b165c3a7d9e2048:9d148906d890053a00f5e581185ac066
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/arirang_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="Al Jazeera" tvg-name="Al Jazeera" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Al-Jazeera-Logo.png" group-title="cignal news" tvg-type="mpd",Al Jazeera
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=73c5f8919d424b06a2186e7c3a5d9040:bf46e85e8fba9f0eae0931394d478d25
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://ucdn.mediaquest.com.ph/bpk-tv/dr_aljazeera/default/index.mpd
+
+#EXTINF:-1 tvg-id="Fashion TV" tvg-name="Fashion TV" group-title="lifestyle entertainment" tvg-type="hls",Fashion TV
+http://lb.streaming.sk/fashiontv/stream/chunklist_w1402273512.m3u8
+
+#EXTINF:-1 tvg-id="AceTV Sport" tvg-name="AceTV Sport" group-title="sports" tvg-type="hls",AceTV Sport
+https://streams2.sofast.tv/sofast/acetv/AceTV_2500k.m3u8
+
+#EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" group-title="sports" tvg-type="hls",Red Bull TV
+https://d3k3xxewhm1my2.cloudfront.net/playlist_1920x1080.m3u8
+
+#EXTINF:-1 tvg-id="Wedo TV Sports" tvg-name="Wedo TV Sports" group-title="sports" tvg-type="hls",Wedo TV Sports
+https://amg00735-amg00735c45-samsung-au-11188.playouts.now.amagi.tv/1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="Kidoodle TV" tvg-name="Kidoodle TV" group-title="kids family" tvg-type="hls",Kidoodle TV
+https://amg07653-apmc-amg07653c5-samsung-ph-8539.playouts.now.amagi.tv/1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="Strawberry Shortcake" tvg-name="Strawberry Shortcake" group-title="kids cartoon family" tvg-type="hls",Strawberry Shortcake
+https://d1si3n1st4nkgb.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_samsungtvplus-xumo/83623c3a-46e5-4477-90af-0c7e48e6e524/5.m3u8
+
+#EXTINF:-1 tvg-id="Sonic the Hedgehog" tvg-name="Sonic the Hedgehog" group-title="kids cartoon family" tvg-type="hls",Sonic the Hedgehog
+https://d1si3n1st4nkgb.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_samsungtvplus-xumo/9e85cd4a-383b-4fcb-a750-4137365204f3/5.m3u8
+
+#EXTINF:-1 tvg-id="Super Mario" tvg-name="Super Mario" group-title="kids cartoon family" tvg-type="hls",Super Mario
+https://d1si3n1st4nkgb.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_samsungtvplus-xumo/907f54fd-2f37-4448-9646-76a15dc8928d/5.m3u8
+
+#EXTINF:-1 tvg-id="Stingray Easy Listening" tvg-name="Stingray Easy Listening" group-title="music" tvg-type="hls",Stingray Easy Listening
+https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/8254a89c-49b0-3801-833e-c8a535b9d854/1790800/manifest.m3u8
+
+#EXTINF:-1 tvg-id="3rs Cartoon Movies" tvg-name="3rs Cartoon Movies" group-title="local cartoon movie" tvg-type="hls",3rs Cartoon Movies
+https://3rscartoonmovies.elektriko4444.workers.dev/kolet.m3u8
+
+#EXTINF:-1 tvg-id="Speed Sport" tvg-name="Speed Sport" group-title="sports" tvg-type="hls",Speed Sport
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Leadstory Breaking News" tvg-name="Leadstory Breaking News" group-title="news" tvg-type="hls",Leadstory Breaking News
+https://amg02703-amg02703c17-samsung-ph-4546.playouts.now.amagi.tv/playlist1080P.m3u8
+
+#EXTINF:-1 tvg-id="Leaderboard Sports News" tvg-name="Leaderboard Sports News" group-title="sport news" tvg-type="hls",Leaderboard Sports News
+https://amg02703-amg02703c20-samsung-ph-9157.playouts.now.amagi.tv/playlist1080_p.m3u8
+
+#EXTINF:-1 tvg-id="France 24" tvg-name="France 24" group-title="news" tvg-type="hls",France 24
+https://amg00106-amg00106c1-samsung-ph-4550.playouts.now.amagi.tv/1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="MasterChef" tvg-name="MasterChef" group-title="cooking reality" tvg-type="hls",MasterChef
+https://amg00627-amg00627c49-samsung-ph-8176.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-masterchefuk-samsungph/cb543d1d7d6c648b92d43e64d2ef49a5f9591fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a062a866a68ac39437ed0e21f48a238b6720a5aa82a66443d80b846ac7255db80148b61299bce8c37683f03409a5e5afba358b1ebe15d45d86ef4b24855967e41e59f43c8821da689d653ca5e8623f3459f9bf58b82168481f3c4986d975cd18a2507fbb051d1a26dbed39660298c7826430d2789c9f1df7d4c4dc3de3e829beaac6cfe69a4e1c8396745df2e99488572fa0354e10c823cc2fdeea5276330a7cb572363c8203c828956109c5581dbd9cf7c6a90f8177d07c66b98012a3591efc21a81d055a5a331cfd203796c94c115c9dcdad19e8d80ef02f7918cd4e1ee2e5fafefa9b87de8f14cc820dc3785cf1d28504c7e60fb3fcbabd644396e4387cf0b9a435bf1ec828ddb012cd920356ea831891555378c036572b379a2da243add6f4aa4252df75d028540d7b138baf288b24868e39e8f69d75bc2994692fa0ba2687c7e07b0f92316056f75c2e16b087f289712aa8384b1395940dff6cbffd25a77526a401c5fdd90921af1b9c9271919d6406631246270b83096388f4e197a6da378f4a3067389035b5dc5af2d525769d685f1b68ed8ce4ba26c91a8d93c3c304d6cad396677378656ecc91cd0e41819a25725a946d36396756223fc9e0cc2/195/1920x1080_6046040/index.m3u8
+
+#EXTINF:-1 tvg-id="Hells Kitchen" tvg-name="Hells Kitchen" group-title="comedy reality cooking" tvg-type="hls",Hells Kitchen
+https://amg00654-itv-amg00654c1-samsung-th-9581.playouts.now.amagi.tv/1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="World of Love Island" tvg-name="World of Love Island" group-title="reality gameshow" tvg-type="hls",World of Love Island
+https://amg00654-itv-amg00654c39-samsung-th-8169.playouts.now.amagi.tv/1080p-vtt/index.m3u8
+
+#EXTINF:-1 tvg-id="Anger Management" tvg-name="Anger Management" group-title="comedy entertainment" tvg-type="hls",Anger Management
+https://live-manifest.production-public.tubi.io/live/d02b962b-a87d-4205-9e8e-9993ce4133fc/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Are We There Yet" tvg-name="Are We There Yet" group-title="comedy family entertainment" tvg-type="hls",Are We There Yet
+https://live-manifest.production-public.tubi.io/live/07831268-bf32-40d9-9c08-0ee6df28cbed/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Baywatch" tvg-name="Baywatch" group-title="entertainment movie" tvg-type="hls",Baywatch
+https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beIN Sports XTRA" tvg-name="beIN Sports XTRA" group-title="sports" tvg-type="hls",beIN Sports XTRA
+https://live-manifest.production-public.tubi.io/live/2fd3d156-b63c-47c8-9d04-5961ddd9cee8/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BritBox Mysteries" tvg-name="BritBox Mysteries" group-title="mystery movie" tvg-type="hls",BritBox Mysteries
+https://live-manifest.production-public.tubi.io/live/3ce83511-4f77-491d-ae2d-94f9c5dad672/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Classic Doctor Who" tvg-name="Classic Doctor Who" group-title="movie entertainment" tvg-type="hls",Classic Doctor Who
+https://live-manifest.production-public.tubi.io/live/2bff0b10-6665-46f2-b205-bb384129c6c1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Deal or No Deal USA" tvg-name="Deal or No Deal USA" group-title="entertainment reality" tvg-type="hls",Deal or No Deal USA
+https://live-manifest.production-public.tubi.io/live/7d2f308c-8fdb-4dc5-8736-3c293bdf5a65/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Dog the Bounty Hunter" tvg-name="Dog the Bounty Hunter" group-title="reality documentary" tvg-type="hls",Dog the Bounty Hunter
+https://live-manifest.production-public.tubi.io/live/d6872865-27e6-4f9c-9e63-ced3057a741c/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Dr. G: Medical Examiner" tvg-name="Dr. G: Medical Examiner" group-title="documentary reality" tvg-type="hls",Dr. G: Medical Examiner
+https://live-manifest.production-public.tubi.io/live/74caf2dd-752a-45dd-aa53-bde823dee55a/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Duck Dynasty" tvg-name="Duck Dynasty" group-title="reality" tvg-type="hls",Duck Dynasty
+https://live-manifest.production-public.tubi.io/live/f21508c8-437e-416c-b02f-340bc1a3da1a/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Fear Factor USA" tvg-name="Fear Factor USA" group-title="reality entertainment" tvg-type="hls",Fear Factor USA
+https://live-manifest.production-public.tubi.io/live/dde54a14-3364-49f8-a1f2-4a56c7e9ebb2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Forensic Files" tvg-name="Forensic Files" group-title="documentary mystery" tvg-type="hls",Forensic Files
+https://live-manifest.production-public.tubi.io/live/8ebe3ce9-1b31-4a38-be9f-4b55f6b49eaf/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Gardening with Monty Don" tvg-name="Gardening with Monty Don" group-title="documentary" tvg-type="hls",Gardening with Monty Don
+https://live-manifest.production-public.tubi.io/live/d91152d3-557b-4e9e-a7b9-73e0246f826d/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Hagerty" tvg-name="Hagerty" group-title="sports entertainment" tvg-type="hls",Hagerty
+https://live-manifest.production-public.tubi.io/live/7d917d9c-66d1-4a15-a323-7ad001137c41/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Midsomer Murders" tvg-name="Midsomer Murders" group-title="mystery movie" tvg-type="hls",Midsomer Murders
+https://live-manifest.production-public.tubi.io/live/0ebfd814-cf17-4d01-a0e5-19f8df07cf68/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Bloomberg TV+ UHD" tvg-name="Bloomberg TV+ UHD" group-title="news" tvg-type="hls",Bloomberg TV+ UHD
+https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8
+
+#EXTINF:-1 tvg-id="Al Jazeera English" tvg-name="Al Jazeera English" group-title="news" tvg-type="hls",Al Jazeera English
+https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MrBeast" tvg-name="MrBeast" group-title="entertainment kids" tvg-type="hls",MrBeast
+https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mystery Science Theater 3000" tvg-name="Mystery Science Theater 3000" group-title="comedy entertainment" tvg-type="hls",Mystery Science Theater 3000
+https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NASCAR" tvg-name="NASCAR" group-title="sports" tvg-type="hls",NASCAR
+https://live-manifest.production-public.tubi.io/live/3404f25c-24bd-4ced-9d72-f2b4d5f63c57/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nash Bridges Channel" tvg-name="Nash Bridges Channel" group-title="movie entertainment" tvg-type="hls",Nash Bridges Channel
+https://live-manifest.production-public.tubi.io/live/597417af-5589-4e08-a432-2ac5034e0a71/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NHRA TV Sport" tvg-name="NHRA TV Sport" group-title="sports" tvg-type="hls",NHRA TV Sport
+https://live-manifest.production-public.tubi.io/live/2b55583d-cfa8-440b-8f38-a0aef9950f75/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nosey" tvg-name="Nosey" group-title="reality entertainment" tvg-type="hls",Nosey
+https://live-manifest.production-public.tubi.io/live/d0ca4057-94d2-44df-9277-fc715b261596/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PGA TOUR" tvg-name="PGA TOUR" group-title="sports" tvg-type="hls",PGA TOUR
+https://live-manifest.production-public.tubi.io/live/5efa4318-2569-4979-97b9-ad984427ba37/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PLL Sport Network" tvg-name="PLL Sport Network" group-title="sports" tvg-type="hls",PLL Sport Network
+https://live-manifest.production-public.tubi.io/live/a85525c7-da51-4d48-87bc-d5de1e7ca02f/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Real Madrid TV 2" tvg-name="Real Madrid TV 2" group-title="sports" tvg-type="hls",Real Madrid TV 2
+https://live-manifest.production-public.tubi.io/live/5cfbe5af-a9c2-45cc-ade9-8e13e39fa2d0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Silent Witness and New Tricks" tvg-name="Silent Witness and New Tricks" group-title="mystery entertainment" tvg-type="hls",Silent Witness and New Tricks
+https://live-manifest.production-public.tubi.io/live/0dbee090-5f28-4184-8d79-95fe8756904b/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Supermarket Sweep" tvg-name="Supermarket Sweep" group-title="reality entertainment" tvg-type="hls",Supermarket Sweep
+https://live-manifest.production-public.tubi.io/live/fcbe451e-2271-4e64-8c4d-0ece86e0ac76/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Biggest Loser" tvg-name="The Biggest Loser" group-title="lifestyle reality" tvg-type="hls",The Biggest Loser
+https://live-manifest.production-public.tubi.io/live/81fb64f1-6881-4ac0-b6d3-f663b4298b94/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Carol Burnett Show" tvg-name="The Carol Burnett Show" group-title="comedy entertainment" tvg-type="hls",The Carol Burnett Show
+https://live-manifest.production-public.tubi.io/live/dbce464b-6541-43dd-a847-01f68b21b4ff/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The FBI Files" tvg-name="The FBI Files" group-title="documentary mystery" tvg-type="hls",The FBI Files
+https://live-manifest.production-public.tubi.io/live/8aee9cff-b626-4950-99e5-809fb599100e/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Johnny Carson Show" tvg-name="The Johnny Carson Show" group-title="entertainment comedy" tvg-type="hls",The Johnny Carson Show
+https://live-manifest.production-public.tubi.io/live/196721fd-dabe-4799-8edc-d8e70f63eb31/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Rifleman" tvg-name="The Rifleman" group-title="movie entertainment" tvg-type="hls",The Rifleman
+https://live-manifest.production-public.tubi.io/live/a4fbd2ea-9b37-4cad-86fb-221be1efbc9f/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Top Gear" tvg-name="Top Gear" group-title="lifestyle entertainment" tvg-type="hls",Top Gear
+https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Top Rank Classics" tvg-name="Top Rank Classics" group-title="sports" tvg-type="hls",Top Rank Classics
+https://live-manifest.production-public.tubi.io/live/2a18fa03-db06-4f39-96c7-1751a3857698/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UFC TV" tvg-name="UFC TV" group-title="sports" tvg-type="hls",UFC TV
+https://live-manifest.production-public.tubi.io/live/dd6d627f-f0f8-48bb-b627-7f7c4fceec37/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Unsolved Mysteries" tvg-name="Unsolved Mysteries" group-title="mystery documentary" tvg-type="hls",Unsolved Mysteries
+https://live-manifest.production-public.tubi.io/live/35099120-35d3-463f-a923-f5e68332d6aa/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Untold Stories of the E.R." tvg-name="Untold Stories of the E.R." group-title="reality documentary" tvg-type="hls",Untold Stories of the E.R.
+https://live-manifest.production-public.tubi.io/live/e135f994-9d0c-4128-a643-759705edf9c9/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Waypoint TV" tvg-name="Waypoint TV" group-title="lifestyle sports" tvg-type="hls",Waypoint TV
+https://live-manifest.production-public.tubi.io/live/d419b6d7-3ede-4ca6-9d7c-3f34b039f7ab/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Wipeout Xtra" tvg-name="Wipeout Xtra" group-title="reality comedy" tvg-type="hls",Wipeout Xtra
+https://live-manifest.production-public.tubi.io/live/ea70dfb3-0a75-4ca1-9151-476fb43f6230/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Movie Box PH" tvg-name="Movie Box PH" group-title="local" tvg-type="hls",Movie Box PH
+https://3rsmoviebox.elektriko4444.workers.dev/moon.m3u8
+
+#EXTINF:-1 tvg-id="90s00s FHD" tvg-name="90s00s FHD" group-title="music" tvg-type="hls",90s00s FHD
+https://amg01076-amg01076c19-lg-it-10329.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightning-now90s00s-lgit/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cinemo" tvg-name="Cinemo" group-title="local" tvg-type="hls",Cinemo
+https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8
+
+#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" group-title="documentary news" tvg-type="hls",CGTN Documentary
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
+
+#EXTINF:-1 tvg-id="3rs Sine Pinoy" tvg-name="3rs Sine Pinoy" group-title="local" tvg-type="hls",3rs Sine Pinoy
+https://3rssinepinoy2.elektriko4444.workers.dev/mochi.m3u8
+
+#EXTINF:-1 tvg-id="3rs TV" tvg-name="3rs TV" group-title="local" tvg-type="hls",3rs TV
+https://3rstv.elektriko4444.workers.dev/peanut.m3u8
+
+#EXTINF:-1 tvg-id="Cartoon Movies" tvg-name="Cartoon Movies" group-title="kids movie cartoon family" tvg-type="hls",Cartoon Movies
+https://live20.bozztv.com/giatvplayout7/giatv-211507/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="Cine X" tvg-name="Cine X" group-title="movie" tvg-type="hls",Cine X
+https://gcinemahls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="Movies Sphere" tvg-name="Movies Sphere" group-title="movie local" tvg-type="hls",Movies Sphere
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Blast Movies" tvg-name="Blast Movies" group-title="movie" tvg-type="hls",Blast Movies
+https://amg19223-amg19223c7-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c7-amgplt0351/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Sony TV" tvg-name="Sony TV" group-title="movie" tvg-type="hls",Sony TV
+https://a-cdn.klowdtv.com/live1/smc_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Movies Action" tvg-name="Movies Action" group-title="movie" tvg-type="hls",Movies Action
+https://shls-live-enc.edgenextcdn.net/out/v1/46079e838e65490c8299f902a7731168/index.m3u8
+
+#EXTINF:-1 tvg-id="Music Movie" tvg-name="Music Movie" group-title="movie music" tvg-type="hls",Music Movie
+https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/dee3e3af-2706-3e77-a952-91b99f6d1819/3291200/manifest.m3u8
+
+#EXTINF:-1 tvg-id="Movies Thriller" tvg-name="Movies Thriller" group-title="movie" tvg-type="hls",Movies Thriller
+https://shls-live-enc.edgenextcdn.net/out/v1/f6d718e841f8442f8374de47f18c93a7/index.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten Top Movies UK" tvg-name="Rakuten Top Movies UK" group-title="movie" tvg-type="hls",Rakuten Top Movies UK
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten TV Action Movies" tvg-name="Rakuten TV Action Movies" group-title="movie" tvg-type="hls",Rakuten TV Action Movies
+https://bca5a421a70c46ad911efd0a4767c4bf.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6075/master.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten TV Comedy Movies" tvg-name="Rakuten TV Comedy Movies" group-title="movie" tvg-type="hls",Rakuten TV Comedy Movies
+https://a300af98e00746e2acf2346f43e47bd1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6191/master.m3u8
+
+#EXTINF:-1 tvg-id="ABN Bible Movies" tvg-name="ABN Bible Movies" group-title="movie family" tvg-type="hls",ABN Bible Movies
+https://mediaserver.abnvideos.com/streams/abnbiblemovies.m3u8
+
+#EXTINF:-1 tvg-id="QVC Japan" tvg-name="QVC Japan" group-title="documentary japan" tvg-type="hls",QVC Japan
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+
+#EXTINF:-1 tvg-id="Real Madrid TV" tvg-name="Real Madrid TV" group-title="sports" tvg-type="hls",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8
+
+#EXTINF:-1 tvg-id="Redbull Tv FHD" tvg-name="Redbull Tv FHD" group-title="sports" tvg-type="hls",Redbull Tv FHD
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+
+#EXTINF:-1 tvg-id="Zoo Moo FHD" tvg-name="Zoo Moo FHD" group-title="kids family" tvg-type="hls",Zoo Moo FHD
+https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PBS KIDS" tvg-name="PBS KIDS" group-title="kids cartoon family" tvg-type="hls",PBS KIDS
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cinemax US" tvg-name="Cinemax US" group-title="movie" tvg-type="hls",Cinemax US
+https://amg01076-amg01076c4-samsung-ph-5316.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" group-title="kids cartoon family" tvg-type="hls",Kartoon Channel
+https://live-manifest.production-public.tubi.io/live/ede882c2-43d6-4eca-9351-ea29e84dc217/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CINEVAULT Westerns Movie" tvg-name="CINEVAULT Westerns Movie" group-title="movie family" tvg-type="hls",CINEVAULT Westerns Movie
+https://live-manifest.production-public.tubi.io/live/a753ad71-b253-4962-8121-dccdd87b8470/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Wanted Dead or Alive Movie" tvg-name="Wanted Dead or Alive Movie" group-title="movie" tvg-type="hls",Wanted Dead or Alive Movie
+https://live-manifest.production-public.tubi.io/live/f4c47d84-a50e-4053-8fd5-827f2e62a401/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Miramax Movies -TCL" tvg-name="Miramax Movies -TCL" group-title="movie" tvg-type="hls",Miramax Movies -TCL
+https://linear-798.frequency.stream/dist/tcltv/798/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Screamin -TCL" tvg-name="Screamin -TCL" group-title="movie" tvg-type="hls",Screamin -TCL
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00520-tcl-screamin-tcl/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Maverick Black Cinema -TCL" tvg-name="Maverick Black Cinema -TCL" group-title="movie" tvg-type="hls",Maverick Black Cinema -TCL
+https://maverick-maverick-black-cinema-2-us.tcl.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Artflix .US -TCL" tvg-name="Artflix .US -TCL" group-title="movie" tvg-type="hls",Artflix .US -TCL
+https://amogonetworx-artflix-1-us.tcl.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Watch Mojo .US -TCL" tvg-name="Watch Mojo .US -TCL" group-title="movie" tvg-type="hls",Watch Mojo .US -TCL
+https://watchmojo-1-us.tcl.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Made in Hollywood .CA -TCL" tvg-name="Made in Hollywood .CA -TCL" group-title="movie" tvg-type="hls",Made in Hollywood .CA -TCL
+https://connection3-ent-ca.tcl.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WeDO Movies -TCL" tvg-name="WeDO Movies -TCL" group-title="movie" tvg-type="hls",WeDO Movies -TCL
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00735-videosolutionsa-w4freemovies-tcl/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Anime X Hidive" tvg-name="Anime X Hidive" group-title="anime" tvg-type="hls",Anime X Hidive
+https://amc-anime-x-hidive-1-us.tablo.wurl.tv/3000.m3u8
+
+#EXTINF:-1 tvg-id="Cartoon Classic" tvg-name="Cartoon Classic" group-title="kids cartoon family" tvg-type="hls",Cartoon Classic
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
+
+#EXTINF:-1 tvg-id="CNN NEWS" tvg-name="CNN NEWS" group-title="news family" tvg-type="hls",CNN NEWS
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_2_1964000.m3u8
+
+#EXTINF:-1 tvg-id="PTV PH" tvg-name="PTV PH" group-title="news family" tvg-type="hls",PTV PH
+https://streams.comclark.com/pknsd/ptv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Hope Channel PH" tvg-name="Hope Channel PH" group-title="religion local" tvg-type="hls",Hope Channel PH
+https://cdn-kr-icn.becdn.net/hcorg_ROeXKL3HV6a/s/jsl_7A1swL7Fhlh/sWRJI/1080p/main.m3u8
+
+#EXTINF:-1 tvg-id="CNA NEWS" tvg-name="CNA NEWS" group-title="news family" tvg-type="hls",CNA NEWS
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+
+#EXTINF:-1 tvg-id="Trace Urban Music" tvg-name="Trace Urban Music" group-title="music" tvg-type="hls",Trace Urban Music
+https://amg01076-lightningintern-traceurban-samsungnz-5x2cu.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Crunchyroll Anime" tvg-name="Crunchyroll Anime" group-title="anime family" tvg-type="hls",Crunchyroll Anime
+https://a3c4ecbd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfQ3J1bmNoeXJvbGxfSExT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" group-title="news" tvg-type="hls",Bloomberg
+https://www.bloomberg.com/media-manifest/streams/asia.m3u8
+
+#EXTINF:-1 tvg-id="Cartoon Network HLS" tvg-name="Cartoon Network HLS" group-title="kids cartoon family" tvg-type="hls",Cartoon Network HLS
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+
+#EXTINF:-1 tvg-id="CGTN News" tvg-name="CGTN News" group-title="news" tvg-type="hls",CGTN News
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master720p.m3u8
+
+#EXTINF:-1 tvg-id="CHANNEL NECO Document" tvg-name="CHANNEL NECO Document" group-title="documentary family" tvg-type="hls",CHANNEL NECO Document
+https://cdn4.skygo.mn/live/disk1/CGTN_Doc/HLSv3-FTA/CGTN_Doc-avc1_2000000=8-mp4a_256000_eng=16.m3u8
+
+#EXTINF:-1 tvg-id="DW News" tvg-name="DW News" group-title="news" tvg-type="hls",DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-id="OUTDOOR CHANNEL" tvg-name="OUTDOOR CHANNEL" group-title="documentary sports family" tvg-type="hls",OUTDOOR CHANNEL
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RT DOCUMENTARY" tvg-name="RT DOCUMENTARY" group-title="documentary" tvg-type="hls",RT DOCUMENTARY
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Toon Goggles (Australia)" tvg-name="Toon Goggles (Australia)" group-title="kids cartoon family" tvg-type="hls",Toon Goggles (Australia)
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Pet Collective International" tvg-name="The Pet Collective International" group-title="kids family" tvg-type="hls",The Pet Collective International
+https://the-pet-collective-international-se.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Kids TV" tvg-name="Kids TV" group-title="kids cartoon family" tvg-type="hls",Kids TV
+https://27d04f2ffe5446e6be4a4a49cf799af7.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/LG_KidsTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BABY SHARK TV" tvg-name="BABY SHARK TV" group-title="kids cartoon family" tvg-type="hls",BABY SHARK TV
+https://32382cb8d8ca489191d635f7320e54b6.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG_BabySharkTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Super Wings Kids" tvg-name="Super Wings Kids" group-title="kids cartoon family" tvg-type="hls",Super Wings Kids
+https://de268517f64a498f8043634fea4c4a84.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/LG_SuperWings/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SKY NEWS" tvg-name="SKY NEWS" group-title="news" tvg-type="hls",SKY NEWS
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+
+#EXTINF:-1 tvg-id="STINGRAY CLASSICA" tvg-name="STINGRAY CLASSICA" group-title="music" tvg-type="hls",STINGRAY CLASSICA
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/ab2001ec-760a-3ffc-94e5-f8a15e702859/3291200/manifest.m3u8
+
+#EXTINF:-1 tvg-id="TRACE SPORT STARS" tvg-name="TRACE SPORT STARS" group-title="sports" tvg-type="hls",TRACE SPORT STARS
+https://tracetv-sportstarts-vidaa.amagi.tv/playlist720p.m3u8
+
+#EXTINF:-1 tvg-id="TRT WORLD News" tvg-name="TRT WORLD News" group-title="news" tvg-type="hls",TRT WORLD News
+https://tv-trtworld.medya.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-id="WION News" tvg-name="WION News" group-title="news" tvg-type="hls",WION News
+https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
+
+#EXTINF:-1 tvg-id="Khugjim Music" tvg-name="Khugjim Music" group-title="music" tvg-type="hls",Khugjim Music
+https://cdn3.skygo.mn/live/disk1/Khugjim/HLSv3-FTA/Khugjim-avc1_3000000=5-mp4a_256000=4.m3u8
+
+#EXTINF:-1 tvg-id="Weather News Live Japan" tvg-name="Weather News Live Japan" group-title="news japan" tvg-type="hls",Weather News Live Japan
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+
+#EXTINF:-1 tvg-id="Shop channel Japan" tvg-name="Shop channel Japan" group-title="japan" tvg-type="hls",Shop channel Japan
+https://shop-channel.akamaized.net/hls/live/2012658/shopch_low/master.m3u8
+
+#EXTINF:-1 tvg-id="NHK Live Japan" tvg-name="NHK Live Japan" group-title="news japan" tvg-type="hls",NHK Live Japan
+https://nl.utako.moe/NHK_G/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="3ABN Kids Network" tvg-name="3ABN Kids Network" group-title="kids family" tvg-type="hls",3ABN Kids Network
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ADN TV+ Anime" tvg-name="ADN TV+ Anime" group-title="anime family" tvg-type="hls",ADN TV+ Anime
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
+
+#EXTINF:-1 tvg-id="Aniplus Asia" tvg-name="Aniplus Asia" group-title="anime family" tvg-type="hls",Aniplus Asia
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Anime Vision" tvg-name="Anime Vision" group-title="anime family" tvg-type="hls",Anime Vision
+https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
+
+#EXTINF:-1 tvg-id="Anime Vision Classics" tvg-name="Anime Vision Classics" group-title="anime family" tvg-type="hls",Anime Vision Classics
+https://d82pyvmcw2kdc.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-swfivzrzwamaq/live/fast-channel-animevisionclassics-efc8dc6d/fast-channel-animevisionclassics-efc8dc6d.m3u8
+
+#EXTINF:-1 tvg-id="Blues TV Music" tvg-name="Blues TV Music" group-title="music family" tvg-type="hls",Blues TV Music
+https://2-fss-2.streamhoster.com/pl_138/205510-3094608-1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRise Anime" tvg-name="FilmRise Anime" group-title="anime family" tvg-type="hls",FilmRise Anime
+https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
+
+#EXTINF:-1 tvg-id="RetroCrush" tvg-name="RetroCrush" group-title="anime family" tvg-type="hls",RetroCrush
+https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Yu-Gi-Oh!" tvg-name="Yu-Gi-Oh!" group-title="anime family" tvg-type="hls",Yu-Gi-Oh!
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Afriwood Blockbuster" tvg-name="Afriwood Blockbuster" group-title="movie family" tvg-type="hls",Afriwood Blockbuster
+https://streamdot.broadpeak.io/cff02a74da64d145c102a2d012758398/afxpstr/AfriwoodBlockbuster/index.m3u8
+
+#EXTINF:-1 tvg-id="American Horrors Movie" tvg-name="American Horrors Movie" group-title="movie" tvg-type="hls",American Horrors Movie
+http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Artflix Movie Classics" tvg-name="Artflix Movie Classics" group-title="movie family" tvg-type="hls",Artflix Movie Classics
+https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DiscoverFilm Document" tvg-name="DiscoverFilm Document" group-title="documentary family" tvg-type="hls",DiscoverFilm Document
+https://discoverfilm-discoverfilm-1-nl.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TV Land Comedy" tvg-name="TV Land Comedy" group-title="movie family" tvg-type="hls",TV Land Comedy
+https://jmp2.uk/plu-5ff8c708653d080007361b14.m3u8
+
+#EXTINF:-1 tvg-id="STAR Movies HD" tvg-name="STAR Movies HD" group-title="movie" tvg-type="hls",STAR Movies HD
+https://amg01076-amg01076c11-samsung-ph-5322.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="TVS Drive In Movie" tvg-name="TVS Drive In Movie" group-title="movie family" tvg-type="hls",TVS Drive In Movie
+https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
+
+#EXTINF:-1 tvg-id="WOWOW Cinema" tvg-name="WOWOW Cinema" group-title="movie japan family" tvg-type="hls",WOWOW Cinema
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+
+#EXTINF:-1 tvg-id="Dove Channel" tvg-name="Dove Channel" group-title="movie family" tvg-type="hls",Dove Channel
+https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Family Gekijo Japan" tvg-name="Family Gekijo Japan" group-title="japan family" tvg-type="hls",Family Gekijo Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+
+#EXTINF:-1 tvg-id="Rakuten TV Family Movies Finland" tvg-name="Rakuten TV Family Movies Finland" group-title="movie family" tvg-type="hls",Rakuten TV Family Movies Finland
+https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten TV Family Movies UK" tvg-name="Rakuten TV Family Movies UK" group-title="movie family" tvg-type="hls",Rakuten TV Family Movies UK
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten Viki Kdrama Sub 1" tvg-name="Rakuten Viki Kdrama Sub 1" group-title="movie family" tvg-type="hls",Rakuten Viki Kdrama Sub 1
+https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Rakuten Viki Kdrama Sub 2" tvg-name="Rakuten Viki Kdrama Sub 2" group-title="movie family" tvg-type="hls",Rakuten Viki Kdrama Sub 2
+https://newidco-rakutenviki-1-us.roku.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MUX World News" tvg-name="MUX World News" group-title="news" tvg-type="hls",MUX World News
+https://live20.bozztv.com/giatvplayout7/giatv-209297/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MUX Juan" tvg-name="MUX Juan" group-title="local" tvg-type="hls",MUX Juan
+https://live20.bozztv.com/giatvplayout7/giatv-209323/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MUX Life" tvg-name="MUX Life" group-title="news" tvg-type="hls",MUX Life
+https://live20.bozztv.com/giatvplayout7/giatv-209362/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BIHMTV Sport" tvg-name="BIHMTV Sport" group-title="sports" tvg-type="hls",BIHMTV Sport
+https://live20.bozztv.com/giatvplayout7/giatv-209362/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Abante TV" tvg-name="Abante TV" group-title="local news" tvg-type="hls",Abante TV
+https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Bilyonaryo News Channel" tvg-name="Bilyonaryo News Channel" group-title="news local" tvg-type="hls",Bilyonaryo News Channel
+https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
+
+#EXTINF:-1 tvg-id="The Manila Times" tvg-name="The Manila Times" group-title="news local" tvg-type="hls",The Manila Times
+https://customer-ksrwu2hvu2ipx2fb.cloudflarestream.com/121fd4c01c7ed1c0b1d2c6699e52309a/manifest/video.m3u8?parentOrigin=https%3A%2F%2Fwww.manilatimes.net
+
+#EXTINF:-1 tvg-id="LiveNow from Fox" tvg-name="LiveNow from Fox" group-title="news" tvg-type="hls",LiveNow from Fox
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Fox News Channel" tvg-name="Fox News Channel" group-title="news" tvg-type="hls",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+
+#EXTINF:-1 tvg-id="Newsmax TV" tvg-name="Newsmax TV" group-title="news" tvg-type="hls",Newsmax TV
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky News Australia" tvg-name="Sky News Australia" group-title="news" tvg-type="hls",Sky News Australia
+https://amg00663-skynews-skynewsau-samsungau-r7n40.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Free Speech TV" tvg-name="Free Speech TV" group-title="news" tvg-type="hls",Free Speech TV
+https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
+
+#EXTINF:-1 tvg-id="Salem News Channel" tvg-name="Salem News Channel" group-title="news" tvg-type="hls",Salem News Channel
+https://snc-ono.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CCTN Cebu" tvg-name="CCTN Cebu" group-title="local news" tvg-type="hls",CCTN Cebu
+http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
+
+#EXTINF:-1 tvg-id="Myx USA" tvg-name="Myx USA" group-title="music" tvg-type="hls",Myx USA
+https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-myxnola/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GCTV Ph" tvg-name="GCTV Ph" group-title="local" tvg-type="hls",GCTV Ph
+http://45.32.115.103/live/livestream/index.m3u8
+
+#EXTINF:-1 tvg-id="Trace Sport Stars" tvg-name="Trace Sport Stars" group-title="sports" tvg-type="hls",Trace Sport Stars
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KTTV FOX 11" tvg-name="KTTV FOX 11" group-title="news" tvg-type="hls",KTTV FOX 11
+http://stream.cammonitorplus.net/1790/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox29 Buffalo" tvg-name="Fox29 Buffalo" group-title="news" tvg-type="hls",Fox29 Buffalo
+http://stream.cammonitorplus.net/1748/index.m3u8
+
+#EXTINF:-1 tvg-id="CBC Documentary 1" tvg-name="CBC Documentary 1" group-title="documentary" tvg-type="hls",CBC Documentary 1
+http://stream.cammonitorplus.net/1701/index.m3u8
+
+#EXTINF:-1 tvg-id="CBC Documentary 2" tvg-name="CBC Documentary 2" group-title="documentary" tvg-type="hls",CBC Documentary 2
+http://stream.cammonitorplus.net/1702/index.m3u8
+
+#EXTINF:-1 tvg-id="CTV News" tvg-name="CTV News" group-title="news" tvg-type="hls",CTV News
+http://stream.cammonitorplus.net/1712/index.m3u8
+
+#EXTINF:-1 tvg-id="BeIN Sports" tvg-name="BeIN Sports" group-title="sports" tvg-type="hls",BeIN Sports
+https://tx3.nexgen.bz:4000/BEIN/index.m3u8
+
+#EXTINF:-1 tvg-id="BeIN Sports Español" tvg-name="BeIN Sports Español" group-title="sports" tvg-type="hls",BeIN Sports Español
+https://tx4.nexgen.bz:4000/BEIN_ESPANOL/index.m3u8
+
+#EXTINF:-1 tvg-id="CBS Sports Network" tvg-name="CBS Sports Network" group-title="sports" tvg-type="hls",CBS Sports Network
+https://tx3.nexgen.bz:4000/CBS_SPORTS/index.m3u8
+
+#EXTINF:-1 tvg-id="ESPN Deportes" tvg-name="ESPN Deportes" group-title="sports" tvg-type="hls",ESPN Deportes
+https://tx3.nexgen.bz:4000/ESPN_DEPORTES/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox Deportes" tvg-name="Fox Deportes" group-title="sports" tvg-type="hls",Fox Deportes
+https://tx4.nexgen.bz:4000/FOX_DEPORTES/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports 1" tvg-name="Fox Sports 1" group-title="sports" tvg-type="hls",Fox Sports 1
+https://tx3.nexgen.bz:4000/FOX_SPORTS1/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox Sports 2" tvg-name="Fox Sports 2" group-title="sports" tvg-type="hls",Fox Sports 2
+https://tx3.nexgen.bz:4000/FOX_SPORTS2/index.m3u8
+
+#EXTINF:-1 tvg-id="Fox Soccer Plus" tvg-name="Fox Soccer Plus" group-title="sports" tvg-type="hls",Fox Soccer Plus
+https://tx4.nexgen.bz:4000/FSP/index.m3u8
+
+#EXTINF:-1 tvg-id="Golf" tvg-name="Golf" group-title="sports" tvg-type="hls",Golf
+https://tx2.nexgen.bz:4000/GOLF/index.m3u8
+
+#EXTINF:-1 tvg-id="J Sport 1" tvg-name="J Sport 1" group-title="sports japan" tvg-type="hls",J Sport 1
+https://nl.utako.moe/js1/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="J Sport 2" tvg-name="J Sport 2" group-title="sports japan" tvg-type="hls",J Sport 2
+https://nl.utako.moe/js2/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="J Sport 3" tvg-name="J Sport 3" group-title="sports japan" tvg-type="hls",J Sport 3
+https://nl.utako.moe/js3/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="J Sport 4" tvg-name="J Sport 4" group-title="sports japan" tvg-type="hls",J Sport 4
+https://nl.utako.moe/js4/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Cartoon Network Japan" tvg-name="Cartoon Network Japan" group-title="cartoon kids japan" tvg-type="hls",Cartoon Network Japan
+https://nl.utako.moe/cartoon_network/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Disney Channel Japan" tvg-name="Disney Channel Japan" group-title="cartoon kids japan" tvg-type="hls",Disney Channel Japan
+https://nl.utako.moe/disneychan/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="AT-X Anime" tvg-name="AT-X Anime" group-title="anime japan" tvg-type="hls",AT-X Anime
+https://nl.utako.moe/AT-X/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="The Hotel Inspector" tvg-name="The Hotel Inspector" group-title="reality lifestyle" tvg-type="hls",The Hotel Inspector
+https://amg00654-itv-amg00654c4-samsung-th-8167.playouts.now.amagi.tv/1080p/index.m3u8
+
+#EXTINF:-1 tvg-id="Antiques Road Trip" tvg-name="Antiques Road Trip" group-title="reality lifestyle" tvg-type="hls",Antiques Road Trip
+https://amg02333-pbs-amg02333c12-samsung-us-8496.playouts.now.amagi.tv/1080p-cc/index.m3u8
+
+#EXTINF:-1 tvg-id="Don't Tell the Bride" tvg-name="Don't Tell the Bride" group-title="reality lifestyle" tvg-type="hls",Don't Tell the Bride
+https://amg00426-lds-amg00426c15-samsung-ph-4614.playouts.now.amagi.tv/1080p-vtt/index.m3u8
+
+#EXTINF:-1 tvg-id="Inwild" tvg-name="Inwild" group-title="documentary" tvg-type="hls",Inwild
+https://amg00861-amg00861c7-samsung-ph-4632.playouts.now.amagi.tv/1080p-en/index.m3u8
+
+#EXTINF:-1 tvg-id="Free Movies" tvg-name="Free Movies" group-title="movie" tvg-type="hls",Free Movies
+https://amg01553-amg01553c2-samsung-ph-7163.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="Action Hollywood Movies" tvg-name="Action Hollywood Movies" group-title="movie" tvg-type="hls",Action Hollywood Movies
+https://amg01076-amg01076c4-samsung-ph-5316.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="RCM Movies" tvg-name="RCM Movies" group-title="movie" tvg-type="hls",RCM Movies
+https://amg01076-amg01076c11-samsung-ph-5322.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="Wild Stuff" tvg-name="Wild Stuff" group-title="documentary" tvg-type="hls",Wild Stuff
+https://amg01076-amg01076c8-samsung-ph-5639.playouts.now.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="Evolution Earth" tvg-name="Evolution Earth" group-title="documentary" tvg-type="hls",Evolution Earth
+https://amg26277-amg26277c6-samsung-ph-11091.playouts.now.amagi.tv/playlist1080-P.m3u8
+
+#EXTINF:-1 tvg-id="TennisChannel US" tvg-name="TennisChannel US" group-title="sports" tvg-type="hls",TennisChannel US
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CLTV 36" tvg-name="CLTV 36" group-title="local news" tvg-type="hls",CLTV 36
+https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
+
+#EXTINF:-1 tvg-id="God Stands TV Tagalog" tvg-name="God Stands TV Tagalog" group-title="local religion family" tvg-type="hls",God Stands TV Tagalog
+https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8
+
+#EXTINF:-1 tvg-id="IBC 13 HLS" tvg-name="IBC 13 HLS" group-title="local news" tvg-type="hls",IBC 13 HLS
+https://streams.comclark.com/pknsd/ibc_13/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Living Asia Channel" tvg-name="Living Asia Channel" group-title="lifestyle entertainment documentary" tvg-type="hls",Living Asia Channel
+https://cdn.vegasplus.us/vegas/lac/chunks.m3u8
+
+#EXTINF:-1 tvg-id="ABC News" tvg-name="ABC News" group-title="news" tvg-type="hls",ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_6.m3u8
+
+#EXTINF:-1 tvg-id="Rocky Mountain PBS" tvg-name="Rocky Mountain PBS" group-title="documentary family" tvg-type="hls",Rocky Mountain PBS
+https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index_1.m3u8
+
+#EXTINF:-1 tvg-id="World Billiards TV" tvg-name="World Billiards TV" group-title="sports" tvg-type="hls",World Billiards TV
+https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/manifest/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/5bc0e69a-2320-47d0-82ad-b9dbdedf327b/2.m3u8
+
+#EXTINF:-1 tvg-id="World Channel" tvg-name="World Channel" group-title="documentary news" tvg-type="hls",World Channel
+https://world.lls.pbs.org/index_1080p.m3u8
+
+#EXTINF:-1 tvg-id="Women's Sports Network" tvg-name="Women's Sports Network" group-title="sports" tvg-type="hls",Women's Sports Network
+https://d39accvx65hq9o.cloudfront.net/Womens_Sports_Network1080.m3u8
+
+#EXTINF:-1 tvg-id="VTN Victory Television Network" tvg-name="VTN Victory Television Network" group-title="religion lifestyle family" tvg-type="hls",VTN Victory Television Network
+https://jk3lzkn4lw79-hls-live.5centscdn.com/VTN2/bcaafe9ad8d42834b08e762ac58596b8.sdp/chunks.m3u8
+
+#EXTINF:-1 tvg-id="Mr Bean (ENG)" tvg-name="Mr Bean (ENG)" group-title="entertainment comedy" tvg-type="hls",Mr Bean (ENG)
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Deutsche Welle" tvg-name="Deutsche Welle" group-title="news" tvg-type="hls",Deutsche Welle
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream04/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-id="Discovery Asia" tvg-name="Discovery Asia" group-title="documentary" tvg-type="hls",Discovery Asia
+https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_2499968=15-mp4a_256000_eng=12.m3u8
+
+#EXTINF:-1 tvg-id="Discovery Channel HLS" tvg-name="Discovery Channel HLS" group-title="documentary" tvg-type="hls",Discovery Channel HLS
+https://cdn4.skygo.mn/live/disk1/SoutheastAsia/HLSv3-FTA/SoutheastAsia-avc1_3000000=118-mp4a_256000_eng=117.m3u8
+
+#EXTINF:-1 tvg-id="MovieSphere" tvg-name="MovieSphere" group-title="movie" tvg-type="hls",MovieSphere
+https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nickelodeon HLS" tvg-name="Nickelodeon HLS" group-title="kids cartoon" tvg-type="hls",Nickelodeon HLS
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+
+#EXTINF:-1 tvg-id="FilAm TV Network" tvg-name="FilAm TV Network" group-title="local" tvg-type="hls",FilAm TV Network
+https://streams.comclark.com/pknsd/filamtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BBC World News" tvg-name="BBC World News" group-title="news" tvg-type="hls",BBC World News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 tvg-id="EWTN Asia-Pacific" tvg-name="EWTN Asia-Pacific" group-title="religion" tvg-type="hls",EWTN Asia-Pacific
+https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Thrillers" tvg-name="Thrillers" group-title="movie" tvg-type="hls",Thrillers
+https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Yahoo! Finance" tvg-name="Yahoo! Finance" group-title="news" tvg-type="hls",Yahoo! Finance
+https://yahoo-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ABC Kids" tvg-name="ABC Kids" group-title="kids cartoon" tvg-type="hls",ABC Kids
+https://c.mjh.nz/abc-kids.m3u8
+
+#EXTINF:-1 tvg-id="Disney Junior" tvg-name="Disney Junior" group-title="kids cartoon" tvg-type="hls",Disney Junior
+http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+
+#EXTINF:-1 tvg-id="Knowledge Network" tvg-name="Knowledge Network" group-title="documentary kids" tvg-type="hls",Knowledge Network
+https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8
+
+#EXTINF:-1 tvg-id="HappyKids" tvg-name="HappyKids" group-title="kids cartoon" tvg-type="hls",HappyKids
+https://dil9xdvretp0f.cloudfront.net/index.m3u8
+
+#EXTINF:-1 tvg-id="Kids Pang TV" tvg-name="Kids Pang TV" group-title="kids cartoon" tvg-type="hls",Kids Pang TV
+https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Kids Station Japan" tvg-name="Kids Station Japan" group-title="kids cartoon japan" tvg-type="hls",Kids Station Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+
+#EXTINF:-1 tvg-id="Ninja Kidz" tvg-name="Ninja Kidz" group-title="kids cartoon" tvg-type="hls",Ninja Kidz
+https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PBS Kids Alaska" tvg-name="PBS Kids Alaska" group-title="kids cartoon" tvg-type="hls",PBS Kids Alaska
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+
+#EXTINF:-1 tvg-id="PBS Kids Eastern/Central" tvg-name="PBS Kids Eastern/Central" group-title="kids cartoon" tvg-type="hls",PBS Kids Eastern/Central
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PBS Kids Hawaii" tvg-name="PBS Kids Hawaii" group-title="kids cartoon" tvg-type="hls",PBS Kids Hawaii
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+
+#EXTINF:-1 tvg-id="PBS Kids Mountain" tvg-name="PBS Kids Mountain" group-title="kids cartoon" tvg-type="hls",PBS Kids Mountain
+https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
+
+#EXTINF:-1 tvg-id="Tom And Jerry" tvg-name="Tom And Jerry" group-title="kids cartoon" tvg-type="hls",Tom And Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BabySharkTV.us" tvg-name="BabySharkTV.us" tvg-logo="https://i.imgur.com/SbBKr8L.png" group-title="kids cartoon" tvg-type="m3u8",BabySharkTV.us
+https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Kartoon Channel!" tvg-name="Kartoon Channel!" tvg-logo="https://i.imgur.com/1luzP3T.png" group-title="kids" tvg-type="m3u8",Kartoon Channel!
+https://aegis-cloudfront-1.tubi.video/ba23a03c-22ff-4a48-ae7e-dd8bf4ee4e29/kc_co.m3u8
+
+#EXTINF:-1 tvg-id="BabyFirst" tvg-name="BabyFirst" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="kids" tvg-type="m3u8",BabyFirst
+https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+
+#EXTINF:-1 tvg-id="PBS Kids" tvg-name="PBS Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_%282022%29.svg/960px-PBS_Kids_logo_%282022%29.svg.png" group-title="education;kids" tvg-type="m3u8",PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+
+#EXTINF:-1 tvg-id="GMA 7" tvg-name="GMA 7" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="converge local" tvg-type="mpd",GMA 7
+http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001214&contentid=ch00000000000000001214&videoid=ch00000090990000001093&recommendtype=0&userid=1084724632836&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGE3OISG4KGXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="converge local entertainment" tvg-type="mpd",GTV
+http://136.239.159.18:6610/001/2/ch00000090990000001143/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrwAtJC%2BsmBQ5ARU076BdkhytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001313&contentid=ch00000000000000001313&videoid=ch00000090990000001143&recommendtype=0&userid=1590268675436&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=AAIUZ2MAG7XXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Tap TV" tvg-name="Tap TV" tvg-logo="https://i.imgur.com/KJaSftF.png" group-title="converge entertainment" tvg-type="mpd",Tap TV
+http://136.239.158.30:6610/001/2/ch00000090990000001149/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BroVo9XMLpd0k2y9rVerSvmytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001319&contentid=ch00000000000000001319&videoid=ch00000090990000001149&recommendtype=0&userid=1260399616449&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RY6345WC6DSXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Tap Edge" tvg-name="Tap Edge" tvg-logo="https://i.imgur.com/3YvDUjL.png" group-title="converge entertainment sports" tvg-type="mpd",Tap Edge
+http://136.158.97.2:6610/001/2/ch00000090990000001150/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq%2B2uVbDOBwGF5t4YHKR5dbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001320&contentid=ch00000000000000001320&videoid=ch00000090990000001150&recommendtype=0&userid=1305735838223&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=NUZJDSE8GBEXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Kapamilya Channel HD" tvg-name="Kapamilya Channel HD" tvg-logo="https://i.imgur.com/WcYS3S3.png" group-title="converge local entertainment family" tvg-type="mpd",Kapamilya Channel HD
+http://136.239.173.2:6610/001/2/ch00000090990000001286/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Tap Action Flix" tvg-name="Tap Action Flix" tvg-logo="https://i.ibb.co/wgjPKFW/IMG-20241029-111906.png" group-title="converge movie action entertainment" tvg-type="mpd",Tap Action Flix
+http://136.239.173.26:6610/001/2/ch00000090990000001305/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpahcUJJEYAxPtEef94INw1ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001775&contentid=ch00000000000000001775&videoid=ch00000090990000001305&recommendtype=0&userid=1826997527749&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=BJ80X0UU6VXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Cinemo!" tvg-name="Cinemo!" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/f2/Cine_Mo%21_3D_Logo_2011.png" group-title="converge movie local entertainment" tvg-type="mpd",Cinemo!
+http://136.239.158.30:6610/001/2/ch00000090990000001254/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpP1%2FTBq4G4yW%2Bysf7XC2GUytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001547&contentid=ch00000000000000001547&videoid=ch00000090990000001254&recommendtype=0&userid=1828619826254&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=RW7BWNI1AISXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="MYX Philippines" tvg-name="MYX Philippines" tvg-logo="https://i.imgur.com/CIPTNnT.png" group-title="converge music local entertainment" tvg-type="mpd",MYX Philippines
+http://136.158.97.2:6610/001/2/ch00000090990000001252/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpnsWBpPBgeEj%2FSfIRshYPEytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001673&contentid=ch00000000000000001673&videoid=ch00000090990000001252&recommendtype=0&userid=1016303175118&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=P65O1I3NW1XXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Jeepney TV" tvg-name="Jeepney TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/0b/Jeepney_TV_3D_Logo_2015.png/revision/latest?cb=20230326142526" group-title="converge local entertainment family" tvg-type="mpd",Jeepney TV
+http://161.49.17.2:6610/001/2/ch00000090990000001250/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpGbNnk2H5Bi8k4yR%2B9AHGFytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001546&contentid=ch00000000000000001546&videoid=ch00000090990000001250&recommendtype=0&userid=1870820485634&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=6T45HYQ6YE3XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Solarflix" tvg-name="Solarflix" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="converge movie entertainment" tvg-type="mpd",Solarflix
+http://136.239.159.18:6610/001/2/ch00000090990000001243/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpbUxUxZzyq5Czg7gUnQAcvytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001543&contentid=ch00000000000000001543&videoid=ch00000090990000001243&recommendtype=0&userid=1633620334084&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=B91ZY82QQ8UXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="ALL TV" tvg-name="ALL TV" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp" group-title="converge local entertainment" tvg-type="mpd",ALL TV
+http://136.239.158.10:6610/001/2/ch00000090990000001179/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bow35sHUcBhGBpxqddBGYEnytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001415&contentid=ch00000000000000001415&videoid=ch00000090990000001179&recommendtype=0&userid=1205050496206&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=02WMA0HI2O3AXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="DZRH TV" tvg-name="DZRH TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/6/62/DZRH_TV_Logo_November_2021.png/revision/latest?cb=20211215134648" group-title="converge news local" tvg-type="mpd",DZRH TV
+http://136.239.173.2:6610/001/2/ch00000090990000001174/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BorTFLlVQhyuanlrUuZnA07ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001322&contentid=ch00000000000000001322&videoid=ch00000090990000001174&recommendtype=0&userid=1099121878948&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=0UTJW5Z23XIXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="DW News (Converge)" tvg-name="DW News (Converge)" tvg-logo="https://brandlogos.net/wp-content/uploads/2021/12/deutsche_welle-brandlogo.net_.png" group-title="converge news" tvg-type="mpd",DW News (Converge)
+http://136.239.158.10:6610/001/2/ch00000090990000001166/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoTcUYwq3PMi%2FTObKiSY6bDytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001377&contentid=ch00000000000000001377&videoid=ch00000090990000001166&recommendtype=0&userid=1209889128637&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=GFCSNPUV69DXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="TV Maria (Converge)" tvg-name="TV Maria (Converge)" tvg-logo="https://tvmaria.ph/wp-content/uploads/2021/11/49664812_1960528887328520_738333465484722176_n.png" group-title="converge religion local family" tvg-type="mpd",TV Maria (Converge)
+http://136.158.97.2:6610/001/2/ch00000090990000001160/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqJiJmfV%2B93mjmGGmqynSohytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001374&contentid=ch00000000000000001374&videoid=ch00000090990000001160&recommendtype=0&userid=1605694488407&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=G669IAJA55PXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Hallypop" tvg-name="Hallypop" tvg-logo="https://magmediaintl.com/images/logochannels/Hallypop%20Logo.png" group-title="converge entertainment music" tvg-type="mpd",Hallypop
+http://136.239.173.26:6610/001/2/ch00000090990000001152/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrQQqEzMGzqacd7xs%2FVYEXbytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001373&contentid=ch00000000000000001373&videoid=ch00000090990000001152&recommendtype=0&userid=1181864451786&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=9VC3RX5W7QLXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Mindanow Network" tvg-name="Mindanow Network" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqndReZ8wqIcJO39ZUlQnjeayPJ-11_bVnow&s" group-title="converge local news entertainment" tvg-type="mpd",Mindanow Network
+http://136.239.173.26:6610/001/2/ch00000090990000001123/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrWYLxykQwHejqAgxTqFbr7ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001237&contentid=ch00000000000000001237&videoid=ch00000090990000001123&recommendtype=0&userid=1545743380024&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7NAS0TOF95HXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Cinemax (Converge)" tvg-name="Cinemax (Converge)" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/337_144.png" group-title="converge movie entertainment" tvg-type="mpd",Cinemax (Converge)
+http://136.239.173.10:6610/001/2/ch00000090990000001108/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoD7Jkv0l3sE1jz6821dGRWytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001233&contentid=ch00000000000000001233&videoid=ch00000090990000001108&recommendtype=0&userid=1349825919509&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=LAO494UQ9QXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Light TV" tvg-name="Light TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkvWEPQltk-Xq-ixCjPdOGxoqgIlMsc095A&s" group-title="converge religion local family" tvg-type="mpd",Light TV
+http://136.239.159.20:6610/001/2/ch00000090990000001103/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqkZ6SnNx3gh97OtxQ2ygibytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001179&contentid=ch00000000000000001179&videoid=ch00000090990000001103&recommendtype=0&userid=1847927235474&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FR3HWWBCXEEXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="INC TV" tvg-name="INC TV" tvg-logo="https://i.imgur.com/b6JmGBq.png" group-title="converge religion local" tvg-type="mpd",INC TV
+http://136.239.159.18:6610/001/2/ch00000090990000001092/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrC5ZD%2FYbS0KSGrFVJUNIMkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001178&contentid=ch00000000000000001178&videoid=ch00000090990000001092&recommendtype=0&userid=1760058453659&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=HILNO5G9U9IXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="UNTV" tvg-name="UNTV" tvg-logo="https://static.wikia.nocookie.net/dxs/images/c/c3/UNTV_Public_Service_Logo_2022.png/revision/latest?cb=20221014202457" group-title="converge news local" tvg-type="mpd",UNTV
+http://136.239.173.10:6610/001/2/ch00000090990000001091/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bp8EKxpteUJNLDuI18c3YYNytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001177&contentid=ch00000000000000001177&videoid=ch00000090990000001091&recommendtype=0&userid=1785051491883&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=7BZSNFMO8LPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="NET 25" tvg-name="NET 25" tvg-logo="https://i.imgur.com/pPPubX5.png" group-title="converge news local" tvg-type="mpd",NET 25
+http://136.239.173.26:6610/001/2/ch00000090990000001090/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpBCCDeDIJn9rDuWx8BszuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001217&contentid=ch00000000000000001217&videoid=ch00000090990000001090&recommendtype=0&userid=1645621004526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=5X13LGN2GQBXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Cinema One" tvg-name="Cinema One" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="converge movie local entertainment" tvg-type="mpd",Cinema One
+http://136.158.97.2:6610/001/2/ch00000090990000001283/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br2cQyuTRlDkHeiqeVidUqqytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001548&contentid=ch00000000000000001548&videoid=ch00000090990000001283&recommendtype=0&userid=1041236685526&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=852NEU8T1ZOXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="SolarSports" tvg-name="SolarSports" tvg-logo="https://static.wikia.nocookie.net/russel/images/e/eb/Solar_Sports_Logo_2022.png/revision/latest?cb=20211226131005" group-title="converge sports" tvg-type="mpd",SolarSports
+http://136.239.173.26:6610/001/2/ch00000090990000001081/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpTfGIKxFqRM2tu30PzY%2FKkytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001087&contentid=ch00000000000000001087&videoid=ch00000090990000001081&recommendtype=0&userid=1572318406990&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=O0NP6KUE17KXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="PTV4 (Converge)" tvg-name="PTV4 (Converge)" tvg-logo="https://static.wikia.nocookie.net/russel/images/d/dc/PTV_4_Para_Sa_Bayan_Alternative_Logo_June_2017.png/revision/latest?cb=20171019065428" group-title="converge local news" tvg-type="mpd",PTV4 (Converge)
+http://136.239.173.26:6610/001/2/ch00000090990000001086/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BogpxrMDVv1bZ%2FeMkgHZmwQytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001175&contentid=ch00000000000000001175&videoid=ch00000090990000001086&recommendtype=0&userid=1252187837705&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=I0ZZE3KB7BIXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="IBC 13 (Converge)" tvg-name="IBC 13 (Converge)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/34/IBC_13_Logo_2012.png/revision/latest?cb=20170830080345" group-title="converge local entertainment" tvg-type="mpd",IBC 13 (Converge)
+http://136.239.173.2:6610/001/2/ch00000090990000001089/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bo0mldwqx%2BTfpKT3KIgGit9ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001216&contentid=ch00000000000000001216&videoid=ch00000090990000001089&recommendtype=0&userid=1807267584414&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=EKD5DMZZEYVXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="RPTV (Converge)" tvg-name="RPTV (Converge)" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/fb/RPTV_Alternative_Logo_2024.png/revision/latest?cb=20240305140432" group-title="converge local entertainment sports" tvg-type="mpd",RPTV (Converge)
+http://136.158.97.2:6610/001/2/ch00000090990000001094/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BplioRPAB6XCf%2FrlkX7xxQZytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001215&contentid=ch00000000000000001215&videoid=ch00000090990000001094&recommendtype=0&userid=1177699247918&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=YBHPP0KWBIFXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="EWTN (Converge)" tvg-name="EWTN (Converge)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8NjV5sqkKOgSpV7-Nj5Dd0KHMVhrtW6ukg&s" group-title="converge religion family" tvg-type="mpd",EWTN (Converge)
+http://136.239.158.18:6610/001/2/ch00000090990000001104/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Brqe%2B6z8S0P4H4d709E7gynytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001180&contentid=ch00000000000000001180&videoid=ch00000090990000001104&recommendtype=0&userid=1130713546686&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=FGMTXNDRQLDXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Warner TV (Converge)" tvg-name="Warner TV (Converge)" tvg-logo="https://i.imgur.com/vGEL2Ne.png" group-title="converge movie entertainment" tvg-type="mpd",Warner TV (Converge)
+http://136.239.158.18:6610/001/2/ch00000090990000001096/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqRhIO4pq%2FZNG%2BJhjsEpHHCytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001219&contentid=ch00000000000000001219&videoid=ch00000090990000001096&recommendtype=0&userid=1321207134399&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=0QVRZ4LBHCCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Channel News Asia" tvg-name="Channel News Asia" tvg-logo="https://i.imgur.com/vm9Z0uV.png" group-title="converge news" tvg-type="mpd",Channel News Asia
+http://136.239.173.26:6610/001/2/ch00000090990000001106/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqhARVluhpunJiYdQ%2BUDM8fytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001181&contentid=ch00000000000000001181&videoid=ch00000090990000001106&recommendtype=0&userid=1618692244090&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=0A4KF9O3OZU7XX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Bilyonaryo Channel (Converge)" tvg-name="Bilyonaryo Channel (Converge)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxvjeBIthYiEaZHeVeYpDicIlOTdv3G6lzoal3VM2xVzWu_J7XxM657oz&s=10" group-title="converge news local" tvg-type="mpd",Bilyonaryo Channel (Converge)
+http://136.239.158.18:6610/001/2/ch00000090990000001124/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bo6qHRSRmwulpOoxC1iF%2BpSytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001278&contentid=ch00000000000000001278&videoid=ch00000090990000001124&recommendtype=0&userid=1747224050385&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=I3AR71L33CXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="NHK World Japan (Converge)" tvg-name="NHK World Japan (Converge)" tvg-logo="https://i.imgur.com/3zp7a0B.png" group-title="converge news japan" tvg-type="mpd",NHK World Japan (Converge)
+http://136.239.173.3:6610/001/2/ch00000090990000001145/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqZTKpeZkGzV2we2%2BZ6q6g3ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001315&contentid=ch00000000000000001315&videoid=ch00000090990000001145&recommendtype=0&userid=1553915080287&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=G0CGMZFORK5XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="CGTN (Converge)" tvg-name="CGTN (Converge)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/24/CGTN_Documentary.svg" group-title="converge news documentary" tvg-type="mpd",CGTN (Converge)
+http://136.239.173.26:6610/001/2/ch00000090990000001146/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq0bLdlQQxjquEy7BUYBE%2BOytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001316&contentid=ch00000000000000001316&videoid=ch00000090990000001146&recommendtype=0&userid=1917967408923&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4ADPFTEPDLCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Living Asia Channel" tvg-name="Living Asia Channel" tvg-logo="https://i.imgur.com/Wsj7iPd.png" group-title="converge lifestyle documentary" tvg-type="mpd",Living Asia Channel
+http://136.239.173.26:6610/001/2/ch00000090990000001154/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BqiuyXGbkpJmyl8E%2Flkr9IBytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001334&contentid=ch00000000000000001334&videoid=ch00000090990000001154&recommendtype=0&userid=1116046860992&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=2KT43TGXV8SXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="SMNI Channel" tvg-name="SMNI Channel" tvg-logo="https://i.imgur.com/WL2ugeZ.png" group-title="converge news local" tvg-type="mpd",SMNI Channel
+http://136.239.173.10:6610/001/2/ch00000090990000001155/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bop4OXrlwmfDc6Bu48vA%2B4AytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001335&contentid=ch00000000000000001335&videoid=ch00000090990000001155&recommendtype=0&userid=1436446282400&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZCER3GW1NZPXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Rock TV of Manila" tvg-name="Rock TV of Manila" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e5/Rock_Manila_Logo_2023.png" group-title="converge music local entertainment" tvg-type="mpd",Rock TV of Manila
+http://136.158.97.2:6610/001/2/ch00000090990000001177/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq3IoTFSryS9b7zI0P4QXhKytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001414&contentid=ch00000000000000001414&videoid=ch00000090990000001177&recommendtype=0&userid=1440892826941&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=AGE6A6KKG8LXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Cartoon Network (Converge)" tvg-name="Cartoon Network (Converge)" tvg-logo="https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png" group-title="converge kids cartoon" tvg-type="mpd",Cartoon Network (Converge)
+http://136.239.173.26:6610/001/2/ch00000090990000001178/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrybZ3RAQEBSZeKilHKlOj1ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001396&contentid=ch00000000000000001396&videoid=ch00000090990000001178&recommendtype=0&userid=1894774110158&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8K2SX2J7IIWXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="ANC" tvg-name="ANC" tvg-logo="https://i.imgur.com/Bcu69bU.png" group-title="converge news local" tvg-type="mpd",ANC
+http://136.239.158.18:6610/001/2/ch00000090990000001216/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoK2PIan60vhUUxnwtpVvgcytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001436&contentid=ch00000000000000001436&videoid=ch00000090990000001216&recommendtype=0&userid=1365005241451&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4U9VQT70SCCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="CCTV4 (Converge)" tvg-name="CCTV4 (Converge)" tvg-logo="https://i.imgur.com/HBisPOA.png" group-title="converge news documentary" tvg-type="mpd",CCTV4 (Converge)
+http://136.239.173.10:6610/001/2/ch00000090990000001223/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrXm%2BLs%2BN7C0jX0KTEhSJl3ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001483&contentid=ch00000000000000001483&videoid=ch00000090990000001223&recommendtype=0&userid=1235993277645&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=36FNJHET6H5XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="DZMM Teleradyo" tvg-name="DZMM Teleradyo" tvg-logo="https://i.imgur.com/npj41pk.png" group-title="converge news local" tvg-type="mpd",DZMM Teleradyo
+http://136.239.159.20:6610/001/2/ch00000090990000001249/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br70JxlZHE85iqqUwY%2BlbxPytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001585&contentid=ch00000000000000001585&videoid=ch00000090990000001249&recommendtype=0&userid=1574307143185&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8MHILOPG9AVXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="THRILL (Converge)" tvg-name="THRILL (Converge)" tvg-logo="https://static.wikia.nocookie.net/logos/images/9/9c/Thrill_logo_2014.png" group-title="converge movie entertainment mystery" tvg-type="mpd",THRILL (Converge)
+http://136.239.173.10:6610/001/2/ch00000090990000001253/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bq7M3KTlp1dzcZcVVxlNmQdytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001563&contentid=ch00000000000000001563&videoid=ch00000090990000001253&recommendtype=0&userid=1896007622720&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=8LJ3RRPRMVYXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Metro Channel" tvg-name="Metro Channel" tvg-logo="https://static.wikia.nocookie.net/russel/images/c/c4/Metro_Channel_White_Logo_2018.png" group-title="converge lifestyle entertainment local" tvg-type="mpd",Metro Channel
+http://136.158.97.2:6610/001/2/ch00000090990000001267/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Br4hyjlpFsJWrmHS5nwWoXTytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001549&contentid=ch00000000000000001549&videoid=ch00000090990000001267&recommendtype=0&userid=1142671346514&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=LTCR16K4MRAXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="CLTV 36 (Converge)" tvg-name="CLTV 36 (Converge)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png" group-title="converge local news" tvg-type="mpd",CLTV 36 (Converge)
+http://136.239.159.20:6610/001/2/ch00000090990000001314/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bp7Iya5QVRTA1RELFN4tQIJytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001814&contentid=ch00000000000000001814&videoid=ch00000090990000001314&recommendtype=0&userid=1863730940752&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=689D0763BF7XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Radio Maria" tvg-name="Radio Maria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Un5_BaTlKCiwEIH0RM1Kf2uuEWs7tC7rRQ&s" group-title="converge religion local" tvg-type="mpd",Radio Maria
+http://136.239.173.26:6610/001/2/ch00000090990000001327/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoMJQgjeNgI0lKcIWq2Qc67ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001815&contentid=ch00000000000000001815&videoid=ch00000090990000001327&recommendtype=0&userid=1715152829702&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4UH5RFC56HXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Knowledge Channel (Converge)" tvg-name="Knowledge Channel (Converge)" tvg-logo="https://i.imgur.com/UIqEr2y.png" group-title="converge education kids local" tvg-type="mpd",Knowledge Channel (Converge)
+http://136.239.158.10:6610/001/2/ch00000090990000001340/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BpqUIe1xo9fgdQj%2FdedKSTyytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001832&contentid=ch00000000000000001832&videoid=ch00000090990000001340&recommendtype=0&userid=1586131651828&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=1RR87QJ6AY2XXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="Edge Sports" tvg-name="Edge Sports" tvg-logo="https://ewsat.com/img/EDGE_SPORT.png" group-title="converge sports" tvg-type="mpd",Edge Sports
+http://136.239.158.18:6610/001/2/ch00000090990000001406/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrD3MimqPOP6OVIBIcXmXdDytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001926&contentid=ch00000000000000001926&videoid=ch00000090990000001406&recommendtype=0&userid=1198953858973&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=KQCW8SZJ4IXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="KBS World (Converge)" tvg-name="KBS World (Converge)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrxyZu1bPiJ3SdGvhVf3d3Muj5AqQ7ZkGpw&s" group-title="converge entertainment music korea" tvg-type="mpd",KBS World (Converge)
+http://136.239.158.30:6610/001/2/ch00000090990000001353/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArJao%2B3Joh62iO894OkSinn2%2FjHNuou2Jtxin49X3LQKw%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001876&contentid=ch00000000000000001876&videoid=ch00000090990000001353&recommendtype=0&userid=1681064024103&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=M43OJUQLPCQXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+
+#EXTINF:-1 tvg-id="TV5 (Converge)" tvg-name="TV5 (Converge)" tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png" group-title="converge local entertainment sports" tvg-type="mpd",TV5 (Converge)
+http://136.239.158.30:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Boh0xOsaoSFLqA0PEh9gVjiytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001213&contentid=ch00000000000000001213&videoid=ch00000090990000001088&recommendtype=0&userid=1150006064464&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=J62NMXIGLTMXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="color-scheme" content="dark only">
+    <meta name="supported-color-schemes" content="dark">
+    <meta name="theme-color" content="#000000">
+
+    <title>IPTV - Premium Streaming</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.16.12/dist/shaka-player.ui.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/shaka-player@4.16.12/dist/controls.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Desktop Blocker - Only shown on desktop devices -->
+
+
+    <!-- Main Application Content -->
+    <div id="main-content">
+        <!-- Sticky Header -->
+        <div class="sticky-header" id="fullStickyHeader">
+            <!-- Main Header with Logo and Search -->
+            <header class="main-header">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='32' viewBox='0 0 120 32'%3E%3Ctext x='0' y='24' fill='white' font-family='Inter' font-weight='700' font-size='20'%3EIPTV%3C/text%3E%3C/svg%3E" 
+                     alt="IPTV" 
+                     class="header-logo">
+
+                <div class="header-right-area">
+                    <!-- Search Trigger Button -->
+                    <button id="searchTrigger" onclick="toggleSearch()" class="icon-btn" aria-label="Search">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="M21 21L17 17"/>
+                        </svg>
+                    </button>
+
+                    <!-- Search Bar (Hidden by default) -->
+                    <div id="searchBarContainer">
+                        <input type="text" 
+                               id="searchInput" 
+                               placeholder="Search channels..." 
+                               class="search-input" 
+                               inputmode="search" 
+                               enterkeyhint="search"
+                               autocomplete="off">
+                        <button onclick="closeSearch()" class="icon-btn-alt" aria-label="Close search">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M18 6L6 18M6 6L18 18"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </header>            
+
+            <!-- Player Area -->
+            <div id="playerArea">
+                <!-- Placeholder/Slider (shown when no video playing) -->
+                <div id="placeholder" class="slider-container">
+                    <div class="pagination-container" id="dotContainer">
+                        <div class="dot-wrapper">
+                            <svg width="13" height="13" viewBox="0 0 13 13">
+                                <circle cx="6.5" cy="6.5" r="3.5" fill="rgba(255,255,255,0.2)"/>
+                                <circle class="dot-ring-progress" cx="6.5" cy="6.5" r="5.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="slider-wrapper">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='450' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23111'/%3E%3Ctext x='400' y='225' fill='%23333' font-family='Inter' font-size='24' text-anchor='middle'%3ESelect a channel to start%3C/text%3E%3C/svg%3E" 
+                             class="slider-img active" 
+                             id="sliderImg"
+                             alt="Placeholder">
+                    </div>
+                </div>
+
+                <!-- Premium Video Player (hidden until channel selected) -->
+                <div id="playerContainer">
+                    <div class="player-card">
+                        <div class="video-container" id="videoContainer">
+                            <video id="video" autoplay playsinline></video>
+
+                            <!-- Custom Video Controls -->
+                            <div id="customControls" class="custom-controls hidden">
+                                <!-- Progress Bar -->
+                               <div class="progress-section" id="progressSection">
+                                 <!--   <div class="progress-bar-container">
+                                        <div id="progressBuffer" class="progress-buffer" style="width: 0%"></div>
+                                        <div id="progressPlayed" class="progress-played" style="width: 0%"></div>
+                                        <div id="progressHandle" class="progress-handle" style="left: 0%"></div>
+                                    </div>-->
+                                </div>
+
+                                <!-- Control Buttons -->
+                                <div class="controls-row">
+                                    <div class="controls-left">
+                                        <button id="playPauseBtn" class="control-btn" onclick="togglePlayPause()" aria-label="Play/Pause">
+                                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+                                                <polygon points="5,3 19,12 5,21" id="playIcon" style="display: none;"/>
+                                                <rect x="5" y="3" width="4" height="18" id="pauseIcon" fill="white"/>
+                                                <rect x="15" y="3" width="4" height="18" id="pauseIcon2" fill="white"/>
+                                            </svg>
+                                        </button>
+                                        <!--<span id="timeDisplay" class="time-display">00:00 / 00:00</span>-->
+                                    </div>
+
+                                    <div class="controls-right">
+                                        <!-- Premium Scrollable Quality Selector -->
+                                        <div class="quality-selector">
+                                            <button id="qualityBtn" class="quality-btn" onclick="toggleQualityMenu(event)" aria-label="Quality settings">
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                                                    <path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"/>
+                                                </svg>
+                                                <span id="currentQuality">Auto</span>
+                                            </button>
+                                            <div id="qualityMenu" class="quality-menu hidden">
+                                                <div class="quality-menu-content">
+                                                    <!-- Quality options will be dynamically populated -->
+                                                    <button onclick="setQuality('auto', event)" class="quality-option active">Auto</button>
+                                                    <button onclick="setQuality('1080p', event)" class="quality-option">1080p</button>
+                                                    <button onclick="setQuality('720p', event)" class="quality-option">720p</button>
+                                                    <button onclick="setQuality('480p', event)" class="quality-option">480p</button>
+                                                    <button onclick="setQuality('360p', event)" class="quality-option">360p</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Fullscreen Button -->
+                                        <button id="fullscreenBtn" class="control-btn fullscreen-btn" onclick="toggleFullscreen()" aria-label="Fullscreen">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                                                <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Loading Overlay -->
+                            <div id="loadingOverlay" class="loading-overlay hidden">
+                                <div class="loading-content">
+                                    <div class="spinner"></div>
+                                    <p id="streamStatus">Loading Channel...</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Metadata Box -->
+                        <div id="metadataWrapper" class="metadata-box">
+                            <div class="meta-left">
+                                <div id="metaLogoContainer"></div>
+                                <div class="meta-info">
+                                    <h3 id="displayChannelName"></h3>
+                                    <p id="streamStatusText">Select a channel to start</p>
+                                </div>
+                            </div>
+                            <div class="meta-right">
+                                <div id="liveIndicator" class="status-indicator status-offline">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                    <span id="statusLabel">OFFLINE</span>
+                                </div>
+                                <button onclick="closePlayer()" class="close-player-btn" aria-label="Close player"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View Controls (Navigation) -->
+            <div id="viewControls" class="view-controls-sticky">
+                <div class="flex justify-center">
+                    <div class="flex bg-card rounded-lg p-1 relative w-fit border border-subtle">
+                        <!-- All Channels Button -->
+                        <button onclick="setView('all')" 
+                                id="btnAll" 
+                                class="nav-btn px-4 py-2 text-[11px] uppercase tracking-wider font-bold rounded-md bg-white/10">
+                            All
+                        </button>
+
+                        <!-- Categories Dropdown -->
+                        <div class="relative">
+                            <button onclick="toggleCategoryMenu()" 
+                                    id="btnCat" 
+                                    class="nav-btn px-4 py-2 text-[11px] uppercase tracking-wider font-bold rounded-md text-white/40 flex items-center gap-1">
+                                Categories 
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9L12 15L18 9"/>
+                                </svg>
+                            </button>
+
+                            <!-- Category Menu (Hidden by default) -->
+                            <div id="categoryMenu" class="hidden absolute top-full left-0 mt-2 w-44 bg-card border border-subtle rounded-xl shadow-2xl z-[60] overflow-hidden">
+                                <div id="categoryList" class="flex flex-col py-1 max-h-64 overflow-y-auto">
+                                    <!-- Categories will be dynamically populated -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Favorites Button -->
+                        <button onclick="setView('fav')" 
+                                id="btnFav" 
+                                class="nav-btn px-4 py-2 text-[11px] uppercase tracking-wider font-bold rounded-md text-white/40">
+                            Favorites
+                        </button>
+                    </div>
+                </div>
+
+                <!-- View Title -->
+                <div class="flex items-center justify-start mt-4">
+                    <h2 id="viewTitle" class="text-lg font-semibold text-white">Channels</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Area (Channel List) -->
+        <div id="mainPage" class="w-full max-w-md mx-auto p-5 flex flex-col pt-4">
+            <!-- Channel List Container -->
+            <div class="glass-panel rounded-xl overflow-hidden mb-3" id="channelList">
+                <!-- Loading state will be shown here -->
+                <div class="p-12 text-center">
+                    <div class="spinner w-8 h-8 mx-auto mb-3"></div>
+                    <p class="text-white/40 text-sm">Loading channels...</p>
+                </div>
+            </div>
+
+            <!-- Scroll Anchor for Infinite Scroll -->
+            <div id="scrollAnchor" class="h-2 mb-5"></div>
+
+            <!-- Load More Button Container -->
+            <div id="loadMoreContainer" class="flex justify-center pb-3">
+                <button onclick="loadMore()" class="btn-load-more flex items-center justify-center gap-2 mx-auto">
+                    Show More Channels 
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9L12 15L18 9"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Back to Top Button -->
+            <button id="backToTop" onclick="scrollToTop()" aria-label="Back to top">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 14l5-5 5 5M7 19l5-5 5 5" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>       
+
+            <!-- Footer -->
+            <footer class="main-footer">
+                <p>
+                  <!--  <a href="#" class="hover:text-white transition-colors">Disclaimer</a>  -->
+                    <a href="t.me/Kilt12" class="hover:text-white transition-colors">Contact Us</a>
+                </p>
+                <p class="mt-2 text-white/20 text-[10px]"> 2026 IPTV. All rights reserved.</p>
+            </footer>          
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Main Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ZeroTwo TV - Stream Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            background: #0a0a0a;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Light Mode */
+        body.light-mode {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .site-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 12px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        body.light-mode .site-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .site-logo span {
+            font-size: 28px;
+        }
+
+        .site-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .toggle-btn {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            border-radius: 30px;
+            padding: 8px 16px;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+        }
+
+        .toggle-btn:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .layout {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .video-container {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .player-wrap {
+            position: relative;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 16/9;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        #shakaVideo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #000;
+        }
+
+        .video-controls {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            padding: 10px 15px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            flex-wrap: wrap;
+        }
+
+        .video-controls.visible {
+            opacity: 1;
+        }
+
+        .video-controls button {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.2s;
+        }
+
+        .video-controls button:hover {
+            background: rgba(255,255,255,0.4);
+            transform: scale(1.05);
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 5px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .progress-bar-buffered {
+            position: absolute;
+            height: 100%;
+            background: rgba(255,255,255,0.5);
+            border-radius: 5px;
+            width: 0%;
+        }
+
+        .progress-bar-fill {
+            position: absolute;
+            height: 100%;
+            background: #667eea;
+            border-radius: 5px;
+            width: 0%;
+        }
+
+        .time-display {
+            font-size: 12px;
+            font-family: monospace;
+            background: rgba(0,0,0,0.6);
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        .loading-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 48px;
+            height: 48px;
+            border: 4px solid rgba(255,255,255,0.3);
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            display: none;
+        }
+
+        .loading-spinner.active {
+            display: block;
+        }
+
+        @keyframes spin {
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .notification {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.9);
+            color: #ff4444;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            display: none;
+            z-index: 200;
+            white-space: nowrap;
+        }
+
+        /* Channel List */
+        .channel-list-container {
+            flex: 1;
+            min-width: 280px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        body.light-mode .channel-list-container {
+            background: rgba(0,0,0,0.05);
+        }
+
+        .channel-header {
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            font-weight: bold;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .channel-search {
+            padding: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .channel-search input {
+            width: 100%;
+            padding: 8px 12px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            color: white;
+            outline: none;
+        }
+
+        body.light-mode .channel-search input {
+            background: white;
+            color: #333;
+            border-color: #ddd;
+        }
+
+        .channels {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .channel {
+            padding: 12px 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.2s;
+        }
+
+        .channel:hover {
+            background: rgba(102,126,234,0.2);
+        }
+
+        .channel.active {
+            background: rgba(102,126,234,0.3);
+            border-left: 3px solid #667eea;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #4caf50;
+            display: inline-block;
+        }
+
+        .status-dot.offline {
+            background: #f44336;
+        }
+
+        .badge-new {
+            background: #ff9800;
+            color: white;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+        }
+
+        .stream-type-badge {
+            font-size: 9px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 8px;
+        }
+
+        .type-mpd {
+            background: #9c27b0;
+        }
+
+        .type-hls {
+            background: #2196f3;
+        }
+
+        .now-playing-panel {
+            margin-top: 15px;
+            padding: 12px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+        }
+
+        body.light-mode .now-playing-panel {
+            background: rgba(0,0,0,0.05);
+        }
+
+        .now-playing-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .now-playing-label {
+            font-size: 11px;
+            opacity: 0.7;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-content">
+        <div class="site-logo">
+            <span>📺</span>
+            <h1 class="site-name">ZeroTwo TV</h1>
+        </div>
+        <div class="theme-toggle">
+            <button id="themeToggle" class="toggle-btn">
+                <span class="toggle-icon">🌙</span>
+                <span class="toggle-text">Dark</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="layout">
+        <!-- Video Player -->
+        <div class="video-container">
+            <div class="player-wrap">
+                <video id="shakaVideo" autoplay muted playsinline crossorigin="anonymous"></video>
+                <div class="loading-spinner"></div>
+                <div id="notification" class="notification"></div>
+                
+                <div class="video-controls" id="videoControls">
+                    <button id="playBtn">▶</button>
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-bar-buffered" id="progressBufferedFill"></div>
+                        <div class="progress-bar-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-display" id="timeDisplay">0:00 / 0:00</div>
+                    <button id="volumeBtn">🔊</button>
+                    <button id="fullscreenBtn">⛶</button>
+                </div>
+            </div>
+            
+            <div class="now-playing-panel" id="nowPlayingPanel">
+                <div class="now-playing-label">Now Playing</div>
+                <div class="now-playing-title" id="nowPlayingTitle">Select a channel</div>
+            </div>
+        </div>
+
+        <!-- Channel List -->
+        <div class="channel-list-container">
+            <div class="channel-header">📡 Channels</div>
+            <div class="channel-search">
+                <input type="text" id="searchInput" placeholder="Search channels...">
+            </div>
+            <div class="channels" id="channelList">
+                <!-- Cignal Channel -->
+                <div class="channel" data-type="mpd" data-category="cignal sports"
+                     data-src="https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd"
+                     data-kid="53c3bf2eba574f639aa21f2d4409ff11" data-key="3de28411cf08a64ea935b9578f6d0edd">
+                    <span class="status-dot"></span>
+                    One Sports HD
+                    <span class="badge-new">NEW</span>
+                    <span class="stream-type-badge type-mpd">MPD</span>
+                </div>
+
+                <!-- Converge Channel -->
+                <div class="channel" data-type="mpd" data-category="converge local"
+                     data-src="http://136.158.97.2:6610/001/2/ch00000090990000001093/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoLvT86fM74ocVChyFS93HUytokK1MIobcue1ImXa0ZEA%3D%3D&amp;version=v1.0&amp;BreakPoint=0&amp;virtualDomain=001.live_hls.zte.com&amp;programid=ch00000000000000001214&amp;contentid=ch00000000000000001214&amp;videoid=ch00000090990000001093&amp;recommendtype=0&amp;userid=1084724632836&amp;boid=001&amp;stbid=02%3A00%3A00%3A00%3A00%3A00&amp;terminalflag=1&amp;profilecode=&amp;usersessionid=FGE3OISG4KGXXX&amp;NeedJITP=1&amp;JITPMediaType=DASH&amp;JITPDRMType=NO">
+                    <span class="status-dot"></span>
+                    GMA 7
+                    <span class="badge-new">NEW</span>
+                    <span class="stream-type-badge type-mpd">MPD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shaka Player Library -->
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/shaka-player.compiled.js"></script>
+
+<script>
+// ===== THEME TOGGLE =====
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+
+function updateToggleButton() {
+    const isLight = body.classList.contains('light-mode');
+    themeToggle.querySelector('.toggle-icon').textContent = isLight ? '☀️' : '🌙';
+    themeToggle.querySelector('.toggle-text').textContent = isLight ? 'Light' : 'Dark';
+}
+
+themeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+    localStorage.setItem('theme', body.classList.contains('light-mode') ? 'light' : 'dark');
+    updateToggleButton();
+});
+
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
+    body.classList.add('light-mode');
+}
+updateToggleButton();
+
+// ===== SHAKA PLAYER SETUP =====
+shaka.polyfill.installAll();
+
+const shakaVideo = document.getElementById('shakaVideo');
+let shakaPlayer = null;
+let currentChannelElement = null;
+
+async function initShakaPlayer() {
+    if (!shaka.Player.isBrowserSupported()) {
+        showNotification('Your browser does not support DASH playback');
+        return false;
+    }
+    
+    if (!shakaPlayer) {
+        shakaPlayer = new shaka.Player(shakaVideo);
+        shakaPlayer.addEventListener('error', onShakaError);
+    }
+    
+    const currentElement = shakaPlayer.getMediaElement();
+    if (currentElement !== shakaVideo) {
+        await shakaPlayer.attach(shakaVideo);
+    }
+    
+    return true;
+}
+
+function onShakaError(event) {
+    const error = event.detail;
+    console.error('Shaka Error:', error);
+    
+    let message = 'Playback error: ';
+    if (error.code === 1001 || error.code === 1002 || error.code === 1003) {
+        message += 'Channel might be offline or the link is expired.';
+    } else if (error.code === 6012 || error.code === 6014 || error.code === 6001) {
+        message += 'DRM/ClearKey is not supported or invalid.';
+    } else {
+        message += error.message || 'Unknown error';
+    }
+    
+    showNotification(message);
+    
+    if (currentChannelElement) {
+        const dot = currentChannelElement.querySelector('.status-dot');
+        if (dot) dot.classList.add('offline');
+    }
+}
+
+function showNotification(msg) {
+    const notifyEl = document.getElementById('notification');
+    notifyEl.textContent = msg;
+    notifyEl.style.display = 'block';
+    
+    setTimeout(() => {
+        notifyEl.style.opacity = '0';
+        setTimeout(() => {
+            notifyEl.style.display = 'none';
+            notifyEl.style.opacity = '1';
+        }, 300);
+    }, 4000);
+}
+
+function getClearKeyPair(kid, key) {
+    if (!kid || !key) return null;
+    
+    const cleanKid = kid.replace(/-/g, '').toLowerCase();
+    const cleanKey = key.replace(/-/g, '').toLowerCase();
+    
+    if (cleanKid.length === 32 && cleanKey.length === 32) {
+        return { [cleanKid]: cleanKey };
+    }
+    return null;
+}
+
+async function playMPD(url, kid, key) {
+    const spinner = document.querySelector('.loading-spinner');
+    spinner.classList.add('active');
+    
+    const isInitialized = await initShakaPlayer();
+    if (!isInitialized) {
+        spinner.classList.remove('active');
+        return;
+    }
+    
+    try {
+        const config = {
+            streaming: {
+                bufferingGoal: 10,
+                rebufferingGoal: 2,
+                retryParameters: {
+                    maxAttempts: 3,
+                    baseDelay: 1000,
+                    backoffFactor: 2
+                }
+            },
+            manifest: {
+                retryParameters: {
+                    maxAttempts: 3,
+                    baseDelay: 1000,
+                    backoffFactor: 2
+                }
+            }
+        };
+        
+        const clearKeys = getClearKeyPair(kid, key);
+        if (clearKeys) {
+            config.drm = { clearKeys };
+        }
+        
+        shakaPlayer.configure(config);
+        
+        // Handle mixed content (HTTP on HTTPS)
+        let finalUrl = url;
+        if (window.location.protocol === 'https:' && url.startsWith('http://')) {
+            showNotification('Warning: HTTP stream on HTTPS site may be blocked by browser');
+        }
+        
+        await shakaPlayer.load(finalUrl);
+        
+        spinner.classList.remove('active');
+        
+        if (currentChannelElement) {
+            const dot = currentChannelElement.querySelector('.status-dot');
+            if (dot) dot.classList.remove('offline');
+        }
+        
+        shakaVideo.play().catch(e => console.log('Autoplay prevented:', e));
+        
+    } catch (error) {
+        spinner.classList.remove('active');
+        console.error('Failed to load MPD:', error);
+        showNotification('Failed to load channel. The stream might be offline.');
+        
+        if (currentChannelElement) {
+            const dot = currentChannelElement.querySelector('.status-dot');
+            if (dot) dot.classList.add('offline');
+        }
+    }
+}
+
+// ===== VIDEO CONTROLS =====
+const playBtn = document.getElementById('playBtn');
+const volumeBtn = document.getElementById('volumeBtn');
+const fullscreenBtn = document.getElementById('fullscreenBtn');
+const progressBar = document.getElementById('progressBar');
+const progressFill = document.getElementById('progressFill');
+const progressBufferedFill = document.getElementById('progressBufferedFill');
+const timeDisplay = document.getElementById('timeDisplay');
+const nowPlayingTitle = document.getElementById('nowPlayingTitle');
+
+function togglePlay() {
+    if (shakaVideo.paused) {
+        shakaVideo.play();
+        playBtn.textContent = '⏸';
+    } else {
+        shakaVideo.pause();
+        playBtn.textContent = '▶';
+    }
+}
+
+playBtn.addEventListener('click', togglePlay);
+
+shakaVideo.addEventListener('play', () => {
+    playBtn.textContent = '⏸';
+});
+
+shakaVideo.addEventListener('pause', () => {
+    playBtn.textContent = '▶';
+});
+
+volumeBtn.addEventListener('click', () => {
+    shakaVideo.muted = !shakaVideo.muted;
+    volumeBtn.textContent = shakaVideo.muted ? '🔇' : '🔊';
+});
+
+fullscreenBtn.addEventListener('click', () => {
+    const playerWrap = document.querySelector('.player-wrap');
+    if (!document.fullscreenElement) {
+        playerWrap.requestFullscreen();
+    } else {
+        document.exitFullscreen();
+    }
+});
+
+shakaVideo.addEventListener('timeupdate', () => {
+    const duration = shakaVideo.duration;
+    const currentTime = shakaVideo.currentTime;
+    
+    if (!isNaN(duration) && duration > 0) {
+        const percent = (currentTime / duration) * 100;
+        progressFill.style.width = percent + '%';
+        timeDisplay.textContent = formatTime(currentTime) + ' / ' + formatTime(duration);
+    }
+    
+    // Update buffered progress
+    if (shakaVideo.buffered.length > 0) {
+        const bufferedEnd = shakaVideo.buffered.end(shakaVideo.buffered.length - 1);
+        const bufferedPercent = (bufferedEnd / duration) * 100;
+        progressBufferedFill.style.width = bufferedPercent + '%';
+    }
+});
+
+progressBar.addEventListener('click', (e) => {
+    const rect = progressBar.getBoundingClientRect();
+    const percent = (e.clientX - rect.left) / rect.width;
+    const duration = shakaVideo.duration;
+    if (!isNaN(duration) && duration > 0) {
+        shakaVideo.currentTime = percent * duration;
+    }
+});
+
+function formatTime(seconds) {
+    if (isNaN(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return mins + ':' + (secs < 10 ? '0' : '') + secs;
+}
+
+// Auto-hide controls
+let controlsTimeout;
+const videoControls = document.getElementById('videoControls');
+const playerWrap = document.querySelector('.player-wrap');
+
+function showControls() {
+    videoControls.classList.add('visible');
+    clearTimeout(controlsTimeout);
+    controlsTimeout = setTimeout(() => {
+        if (!shakaVideo.paused) {
+            videoControls.classList.remove('visible');
+        }
+    }, 2000);
+}
+
+playerWrap.addEventListener('mousemove', showControls);
+playerWrap.addEventListener('click', showControls);
+playerWrap.addEventListener('touchstart', showControls);
+showControls();
+
+// ===== CHANNEL SELECTION =====
+const channels = document.querySelectorAll('.channel');
+const searchInput = document.getElementById('searchInput');
+
+function updateNowPlaying(channel) {
+    const name = channel.cloneNode(true);
+    name.querySelectorAll('.status-dot, .badge-new, .stream-type-badge').forEach(el => el.remove());
+    nowPlayingTitle.textContent = name.textContent.trim();
+}
+
+channels.forEach(channel => {
+    channel.addEventListener('click', async () => {
+        channels.forEach(c => c.classList.remove('active'));
+        channel.classList.add('active');
+        currentChannelElement = channel;
+        
+        const src = channel.dataset.src;
+        const kid = channel.dataset.kid;
+        const key = channel.dataset.key;
+        const type = channel.dataset.type;
+        
+        updateNowPlaying(channel);
+        
+        if (type === 'mpd' && src) {
+            await playMPD(src, kid, key);
+        } else {
+            showNotification('Unsupported stream type');
+        }
+    });
+});
+
+// Search functionality
+searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase();
+    channels.forEach(channel => {
+        const text = channel.textContent.toLowerCase();
+        if (text.includes(query)) {
+            channel.style.display = 'flex';
+        } else {
+            channel.style.display = 'none';
+        }
+    });
+});
+
+// Auto-select first channel
+if (channels.length > 0) {
+    channels[0].click();
+}
+
+// Scroll to top on load
+history.scrollRestoration = 'manual';
+window.scrollTo(0, 0);
+
+// Unlock audio on first user interaction
+function unlockAudio() {
+    shakaVideo.muted = false;
+    shakaVideo.play().catch(() => {});
+    document.removeEventListener('click', unlockAudio);
+    document.removeEventListener('touchstart', unlockAudio);
+}
+document.addEventListener('click', unlockAudio);
+document.addEventListener('touchstart', unlockAudio);
+
+console.log('Player ready - Cignal and Converge channels loaded');
+</script>
+</body>
+</html>
