@@ -3,7 +3,7 @@ const types={save:'channels',delete:'channels',radio_save:'radio_stations',radio
 const ident=()=>crypto.randomBytes(12).toString('hex');
 module.exports=async(req,res)=>{try{if(req.method==='GET')return json(res,{admin:authorized(req)});if(req.method!=='POST')return json(res,{error:'Method not allowed'},405);
 const b=req.body||{},action=b.action;
-if(action==='login'){const user=process.env.ADMIN_USER||'admin',pass=process.env.ADMIN_PASSWORD||'admin';if(b.username!==user||b.password!==pass)return json(res,{error:'Incorrect credentials'},401);const exp=String(Date.now()+86400000);res.setHeader('Set-Cookie',`tamj_auth=${exp}.${signed(exp)}; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=86400`);return json(res,{ok:true})}
+if(action==='login'){const user=process.env.ADMIN_USER,pass=process.env.ADMIN_PASSWORD;if(!user||!pass||!process.env.ADMIN_SECRET)return json(res,{error:'Set ADMIN_USER, ADMIN_PASSWORD and ADMIN_SECRET in Vercel'},503);if(b.username!==user||b.password!==pass)return json(res,{error:'Incorrect credentials'},401);const exp=String(Date.now()+86400000);res.setHeader('Set-Cookie',`tamj_auth=${exp}.${signed(exp)}; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=86400`);return json(res,{ok:true})}
 if(action==='logout'){res.setHeader('Set-Cookie','tamj_auth=; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=0');return json(res,{ok:true})}
 if(!authorized(req))return json(res,{error:'Admin login required'},403);
 const type=types[action];if(!type)return json(res,{error:'Unsupported action'},400);
