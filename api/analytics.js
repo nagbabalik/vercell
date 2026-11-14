@@ -1,0 +1,1 @@
+const {json}=require('./_store');module.exports=(req,res)=>json(res,{online:0,note:'Live viewer tracking is not enabled on serverless hosting'});

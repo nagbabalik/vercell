@@ -1,0 +1,1 @@
+const {json}=require('./_store');module.exports=async(req,res)=>json(res,{results:[],error:'TMDB discovery requires a separately configured API integration'});

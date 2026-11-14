@@ -1,0 +1,1 @@
+const {read,json}=require('./_store');module.exports=async(req,res)=>{try{const a=await read('movie_streams');json(res,{results:a.map(m=>({key:m.key,id:m.tmdb_id||0,kind:m.kind||'movie',title:m.title,overview:m.description||'',poster:m.poster||'',genre:m.genre||'',date:m.year||'',rating:0,playable:!!m.url}))})}catch(e){json(res,{error:e.message},500)}};
